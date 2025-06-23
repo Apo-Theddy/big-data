@@ -10,6 +10,10 @@
     {
       "src": "*.js",
       "use": "@vercel/static"
+    },
+    {
+      "src": "pag*/*.csv",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -17,6 +21,20 @@
       "src": "/(.*\\.js)",
       "headers": {
         "Content-Type": "application/javascript"
+      },
+      "continue": true
+    },
+    {
+      "src": "/pag1/(.*\\.csv)",
+      "headers": {
+        "Content-Type": "text/csv"
+      },
+      "continue": true
+    },
+    {
+      "src": "/pag2/(.*\\.csv)",
+      "headers": {
+        "Content-Type": "text/csv"
       },
       "continue": true
     },
