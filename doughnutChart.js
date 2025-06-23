@@ -1,5 +1,5 @@
 export function initDoughnutChart() {
-  const csvFilePath = "/pag1/Recuento de UserKey por LevelName.csv";
+  const csvFilePath = "./pag1/Recuento de UserKey por LevelName.csv";
   const ctx = document.getElementById("doughnutChart").getContext("2d");
 
   // Variable para mantener referencia del gráfico

@@ -1,7 +1,7 @@
 // Función mejorada para el gráfico de barras apiladas
 export function initStackedBarChart() {
   const csvFilePath =
-    "/pag2/Recuento de BadgeKey por BadgeName y BadgeCategory.csv";
+    "./pag2/Recuento de BadgeKey por BadgeName y BadgeCategory.csv";
   const ctx = document.getElementById("stackedBarChart").getContext("2d");
 
   // Mostrar mensaje de carga inicial
