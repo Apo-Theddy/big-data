@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard de Votaciones</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ["Inter", "sans-serif"],
+            },
+            colors: {
+              primary: "#6366f1",
+              "primary-dark": "#4f46e5",
+              secondary: "#06b6d4",
+              success: "#10b981",
+              warning: "#f59e0b",
+              danger: "#ef4444",
+              "bg-primary": "#0f0f23",
+              "bg-secondary": "#1a1a3e",
+            },
+            animation: {
+              "fade-in-up": "fadeInUp 1s ease-out",
+              "fade-in-up-delay": "fadeInUp 1s ease-out 0.2s both",
+              "spin-slow": "spin 1s linear infinite",
+            },
+            keyframes: {
+              fadeInUp: {
+                "0%": {
+                  opacity: "0",
+                  transform: "translateY(30px)",
+                },
+                "100%": {
+                  opacity: "1",
+                  transform: "translateY(0)",
+                },
+              },
+            },
+            backdropBlur: {
+              xs: "2px",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 100%);
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(
+            circle at 20% 20%,
+            rgba(99, 102, 241, 0.1) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 80% 80%,
+            rgba(6, 182, 212, 0.1) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 40% 40%,
+            rgba(16, 185, 129, 0.05) 0%,
+            transparent 50%
+          );
+        pointer-events: none;
+        z-index: -1;
+      }
+
+      .gradient-text {
+        background: linear-gradient(135deg, #6366f1, #06b6d4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .glass-card {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .glass-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.4),
+          transparent
+        );
+      }
+
+      .card-icon-gradient {
+        background: linear-gradient(135deg, #6366f1, #4f46e5);
+      }
+
+      .filter-input:focus {
+        box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+      }
+    </style>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="font-inter text-white min-h-screen overflow-x-hidden">
+    <div class="max-w-7xl mx-auto p-8">
+      <!-- Header -->
+      <div class="text-center mb-12 relative">
+        <h1 class="text-5xl font-bold gradient-text mb-2 animate-fade-in-up">
+          <i class="fas fa-chart-line"></i> Dashboard de Votaciones
+        </h1>
+        <p class="text-slate-400 text-lg font-normal animate-fade-in-up-delay">
+          Análisis en tiempo real de votos por ubicación y distribución de
+          usuarios
+        </p>
+      </div>
+
+      <!-- Dashboard Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+        <!-- Sección de Tabla -->
+        <div
+          class="glass-card rounded-3xl p-8 shadow-2xl transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-3xl hover:border-white/30 relative overflow-hidden"
+        >
+          <div class="flex items-center gap-4 mb-6">
+            <div
+              class="w-12 h-12 rounded-xl card-icon-gradient flex items-center justify-center text-2xl text-white"
+            >
+              <i class="fas fa-table"></i>
+            </div>
+            <h2 class="text-2xl font-semibold text-white">
+              Votos por Ubicación
+            </h2>
+          </div>
+
+          <!-- Filtros -->
+          <div class="glass-card rounded-2xl p-6 mb-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div class="relative">
+                <label class="block text-sm font-medium text-slate-400 mb-2">
+                  <i class="fas fa-search"></i> Buscar ubicación
+                </label>
+                <input
+                  type="text"
+                  id="filterLocation"
+                  class="filter-input w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white text-sm transition-all duration-300 focus:outline-none focus:border-primary focus:bg-white/8 placeholder-slate-400"
+                  placeholder="Filtrar por ubicación..."
+                />
+              </div>
+              <div class="relative">
+                <label class="block text-sm font-medium text-slate-400 mb-2">
+                  <i class="fas fa-thumbs-down"></i> Ordenar DownVotes
+                </label>
+                <select
+                  id="sortDownVotes"
+                  class="filter-input w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white text-sm transition-all duration-300 focus:outline-none focus:border-primary focus:bg-white/8"
+                >
+                  <option value="">Sin ordenar</option>
+                  <option value="asc">Ascendente</option>
+                  <option value="desc">Descendente</option>
+                </select>
+              </div>
+              <div class="relative">
+                <label class="block text-sm font-medium text-slate-400 mb-2">
+                  <i class="fas fa-thumbs-up"></i> Ordenar UpVotes
+                </label>
+                <select
+                  id="sortUpVotes"
+                  class="filter-input w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white text-sm transition-all duration-300 focus:outline-none focus:border-primary focus:bg-white/8"
+                >
+                  <option value="">Sin ordenar</option>
+                  <option value="asc">Ascendente</option>
+                  <option value="desc">Descendente</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tabla -->
+          <div class="glass-card rounded-2xl overflow-hidden mb-4">
+            <table class="w-full border-collapse">
+              <thead class="bg-white/5">
+                <tr>
+                  <th
+                    class="px-6 py-4 text-left font-semibold text-sm uppercase tracking-wider text-slate-400 border-b border-white/10"
+                  >
+                    <i class="fas fa-map-marker-alt"></i> Ubicación
+                  </th>
+                  <th
+                    class="px-6 py-4 text-left font-semibold text-sm uppercase tracking-wider text-slate-400 border-b border-white/10"
+                  >
+                    <i class="fas fa-thumbs-down"></i> DownVotes
+                  </th>
+                  <th
+                    class="px-6 py-4 text-left font-semibold text-sm uppercase tracking-wider text-slate-400 border-b border-white/10"
+                  >
+                    <i class="fas fa-thumbs-up"></i> UpVotes
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="tableBody" class="divide-y divide-white/5">
+                <tr>
+                  <td colspan="3" class="px-6 py-8 text-center">
+                    <div
+                      class="flex items-center justify-center gap-4 text-slate-400 text-sm"
+                    >
+                      <div
+                        class="w-5 h-5 border-2 border-white/10 border-t-primary rounded-full animate-spin-slow"
+                      ></div>
+                      Cargando datos...
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Paginación -->
+          <div class="flex items-center justify-center gap-4 mt-8 flex-wrap">
+            <button
+              id="prevBtn"
+              class="px-4 py-2 glass-card rounded-lg text-white cursor-pointer transition-all duration-300 text-sm backdrop-blur-md hover:bg-primary hover:border-primary hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              <i class="fas fa-chevron-left"></i> Anterior
+            </button>
+            <span id="pageInfo" class="text-slate-400 text-sm font-medium"
+              >Página 1 de 1</span
+            >
+            <div class="flex items-center gap-2">
+              <input
+                type="number"
+                id="gotoPage"
+                class="w-16 px-2 py-2 bg-white/5 border border-white/10 rounded-md text-white text-center text-sm"
+                min="1"
+                placeholder="1"
+              />
+              <button
+                id="gotoBtn"
+                class="px-4 py-2 glass-card rounded-lg text-white cursor-pointer transition-all duration-300 text-sm backdrop-blur-md hover:bg-primary hover:border-primary hover:-translate-y-1"
+              >
+                Ir
+              </button>
+            </div>
+            <button
+              id="nextBtn"
+              class="px-4 py-2 glass-card rounded-lg text-white cursor-pointer transition-all duration-300 text-sm backdrop-blur-md hover:bg-primary hover:border-primary hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Siguiente <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Sección de Gráfica -->
+        <div
+          class="glass-card rounded-3xl p-8 shadow-2xl transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-3xl hover:border-white/30 relative overflow-hidden"
+        >
+          <div class="flex items-center gap-4 mb-6">
+            <div
+              class="w-12 h-12 rounded-xl card-icon-gradient flex items-center justify-center text-2xl text-white"
+            >
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <h2 class="text-2xl font-semibold text-white">
+              Usuarios por Nivel
+            </h2>
+          </div>
+
+          <div
+            class="glass-card rounded-2xl p-8 flex justify-center items-center min-h-96"
+          >
+            <div class="w-full max-w-lg relative">
+              <canvas id="doughnutChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nueva Sección de Gráfica de Columnas Apiladas -->
+      <div class="grid grid-cols-1 gap-8 mb-8">
+        <div
+          class="glass-card rounded-3xl p-8 shadow-2xl transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-3xl hover:border-white/30 relative overflow-hidden"
+        >
+          <div class="flex items-center gap-4 mb-6">
+            <div
+              class="w-12 h-12 rounded-xl card-icon-gradient flex items-center justify-center text-2xl text-white"
+            >
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <h2 class="text-2xl font-semibold text-white">
+              Distribución de Badges por Categoría
+            </h2>
+          </div>
+
+          <div
+            class="glass-card rounded-2xl p-8 flex justify-center items-center min-h-96"
+          >
+            <div class="w-full relative" style="height: 500px">
+              <canvas id="stackedBarChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const csvFilePath = "./pag1/data.csv";
+        const tableBody = document.getElementById("tableBody");
+        const pageInfo = document.getElementById("pageInfo");
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
+        const gotoPageInput = document.getElementById("gotoPage");
+        const gotoBtn = document.getElementById("gotoBtn");
+
+        const filterLocation = document.getElementById("filterLocation");
+        const sortDownVotes = document.getElementById("sortDownVotes");
+        const sortUpVotes = document.getElementById("sortUpVotes");
+
+        let allData = [];
+        let filteredData = [];
+        let currentPage = 1;
+        const rowsPerPage = 10;
+
+        // Cargar CSV
+        fetch(csvFilePath)
+          .then((response) => {
+            if (!response.ok)
+              throw new Error("No se pudo cargar el archivo CSV");
+            return response.text();
+          })
+          .then((csvData) => {
+            const rows = csvData.split(/\r\n|\n/);
+            const headers = rows[0].split(",").map((h) => h.trim());
+
+            for (let i = 1; i < rows.length; i++) {
+              const row = rows[i].trim();
+              if (!row) continue;
+
+              const cols = row.split(",");
+              const rowData = {};
+              headers.forEach((header, index) => {
+                rowData[header] = cols[index] ? cols[index].trim() : "";
+              });
+              allData.push(rowData);
+            }
+
+            applyFiltersAndSort();
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            tableBody.innerHTML = `<tr><td colspan="3" class="text-center text-danger p-8"><i class="fas fa-exclamation-triangle"></i> ${error.message}</td></tr>`;
+          });
+
+        // Aplicar filtro y ordenamiento
+        function applyFiltersAndSort() {
+          let result = [...allData];
+
+          // Filtro por texto
+          const locationFilter = filterLocation.value.toLowerCase();
+          if (locationFilter) {
+            result = result.filter((row) =>
+              row.Location.toLowerCase().includes(locationFilter)
+            );
+          }
+
+          // Ordenamiento DownVotes
+          const downOrder = sortDownVotes.value;
+          if (downOrder) {
+            result.sort((a, b) => {
+              const valA = parseInt(a["Recuento de DownVotes"]) || 0;
+              const valB = parseInt(b["Recuento de DownVotes"]) || 0;
+              return downOrder === "asc" ? valA - valB : valB - valA;
+            });
+          }
+
+          // Ordenamiento UpVotes
+          const upOrder = sortUpVotes.value;
+          if (upOrder) {
+            result.sort((a, b) => {
+              const valA = parseInt(a["Recuento de UpVotes"]) || 0;
+              const valB = parseInt(b["Recuento de UpVotes"]) || 0;
+              return upOrder === "asc" ? valA - valB : valB - valA;
+            });
+          }
+
+          filteredData = result;
+          currentPage = 1;
+          showPage(currentPage);
+        }
+
+        // Mostrar página actual
+        function showPage(page) {
+          tableBody.innerHTML = "";
+
+          const totalPages = Math.ceil(filteredData.length / rowsPerPage);
+          if (page < 1 || page > totalPages) return;
+
+          const start = (page - 1) * rowsPerPage;
+          const end = start + rowsPerPage;
+          const pageData = filteredData.slice(start, end);
+
+          pageData.forEach((row) => {
+            const tr = document.createElement("tr");
+            tr.className = "transition-all duration-200 hover:bg-white/5";
+
+            const downVotes = parseInt(row["Recuento de DownVotes"]) || 0;
+            const upVotes = parseInt(row["Recuento de UpVotes"]) || 0;
+
+            tr.innerHTML = `
+              <td class="px-6 py-4 border-b border-white/5 text-sm text-white">
+                <i class="fas fa-map-marker-alt text-secondary mr-2"></i>${row.Location}
+              </td>
+              <td class="px-6 py-4 border-b border-white/5 text-sm text-white">
+                <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium bg-danger/10 text-danger border border-danger/20">
+                  <i class="fas fa-thumbs-down"></i> ${downVotes}
+                </span>
+              </td>
+              <td class="px-6 py-4 border-b border-white/5 text-sm text-white">
+                <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium bg-success/10 text-success border border-success/20">
+                  <i class="fas fa-thumbs-up"></i> ${upVotes}
+                </span>
+              </td>
+            `;
+            tableBody.appendChild(tr);
+          });
+
+          updatePaginationControls();
+        }
+
+        // Actualizar botones y texto de página
+        function updatePaginationControls() {
+          const totalPages = Math.ceil(filteredData.length / rowsPerPage);
+          pageInfo.textContent = `Página ${currentPage} de ${totalPages}`;
+          prevBtn.disabled = currentPage === 1;
+          nextBtn.disabled =
+            currentPage === totalPages || filteredData.length === 0;
+          gotoPageInput.max = totalPages || 1;
+        }
+
+        // Eventos de filtros y ordenamiento
+        [filterLocation, sortDownVotes, sortUpVotes].forEach((input) => {
+          input.addEventListener("change", () => {
+            applyFiltersAndSort();
+          });
+
+          if (input.type === "text") {
+            input.addEventListener("input", () => {
+              applyFiltersAndSort();
+            });
+          }
+        });
+
+        // Evento del botón "Ir"
+        gotoBtn.addEventListener("click", () => {
+          const desiredPage = parseInt(gotoPageInput.value);
+          const totalPages = Math.ceil(filteredData.length / rowsPerPage);
+
+          if (desiredPage && desiredPage >= 1 && desiredPage <= totalPages) {
+            currentPage = desiredPage;
+            showPage(currentPage);
+          } else {
+            alert(
+              `Por favor ingresa una página válida entre 1 y ${totalPages}`
+            );
+          }
+        });
+
+        // Eventos de navegación
+        prevBtn.addEventListener("click", () => {
+          if (currentPage > 1) {
+            currentPage--;
+            showPage(currentPage);
+          }
+        });
+
+        nextBtn.addEventListener("click", () => {
+          const totalPages = Math.ceil(filteredData.length / rowsPerPage);
+          if (currentPage < totalPages) {
+            currentPage++;
+            showPage(currentPage);
+          }
+        });
+      });
+
+      // Script para la gráfica de anillo
+      document.addEventListener("DOMContentLoaded", function () {
+        const csvFilePath = "pag1/Recuento de UserKey por LevelName.csv";
+
+        fetch(csvFilePath)
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(
+                `No se pudo cargar el archivo CSV: ${csvFilePath}`
+              );
+            }
+            return response.text();
+          })
+          .then((csvData) => {
+            const rows = csvData.split(/\r\n|\n/);
+            const headers = rows[0].split(",").map((h) => h.trim());
+
+            const labels = [];
+            const data = [];
+
+            for (let i = 1; i < rows.length; i++) {
+              const row = rows[i].trim();
+              if (!row) continue;
+
+              const cols = row.split(",");
+              const levelName = cols[headers.indexOf("LevelName")];
+              const userKeyCount = parseInt(
+                cols[headers.indexOf("Recuento de UserKey")]
+              );
+
+              if (levelName && !isNaN(userKeyCount)) {
+                labels.push(levelName);
+                data.push(userKeyCount);
+              }
+            }
+
+            // Dibujar gráfica de anillos mejorada
+            const ctx = document
+              .getElementById("doughnutChart")
+              .getContext("2d");
+            new Chart(ctx, {
+              type: "doughnut",
+              data: {
+                labels: labels,
+                datasets: [
+                  {
+                    label: "Usuarios por nivel",
+                    data: data,
+                    backgroundColor: [
+                      "#6366f1",
+                      "#06b6d4",
+                      "#10b981",
+                      "#f59e0b",
+                      "#ef4444",
+                      "#8b5cf6",
+                      "#f97316",
+                      "#14b8a6",
+                      "#ec4899",
+                      "#84cc16",
+                    ],
+                    borderColor: "rgba(255, 255, 255, 0.2)",
+                    borderWidth: 1,
+                    hoverOffset: 20,
+                    hoverBorderWidth: 3,
+                    hoverBorderColor: "rgba(255, 255, 255, 1)",
+                  },
+                ],
+              },
+              options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                aspectRatio: 1,
+                plugins: {
+                  legend: {
+                    position: "right",
+                    align: "center",
+                    labels: {
+                      color: "#e2e8f0",
+                      font: { family: "Inter", size: 12, weight: "500" },
+                      padding: 12,
+                      usePointStyle: true,
+                      pointStyle: "circle",
+                      boxWidth: 8,
+                      generateLabels: function (chart) {
+                        const data = chart.data;
+                        if (data.labels.length && data.datasets.length) {
+                          const total = data.datasets[0].data.reduce(
+                            (a, b) => a + b,
+                            0
+                          );
+                          return data.labels.map((label, i) => {
+                            const value = data.datasets[0].data[i];
+                            const percentage = Math.round(
+                              (value / total) * 100
+                            );
+
+                            return {
+                              text: `${label}: ${value} (${percentage}%)`,
+                              fillStyle: data.datasets[0].backgroundColor[i],
+                              strokeStyle: data.datasets[0].borderColor,
+                              lineWidth: 1,
+                              hidden: isNaN(value) || value === 0,
+                              index: i,
+                            };
+                          });
+                        }
+                        return [];
+                      },
+                    },
+                    onClick: function (e, legendItem, legend) {
+                      const index = legendItem.index;
+                      const chart = legend.chart;
+                      const meta = chart.getDatasetMeta(0);
+                      meta.data[index].hidden = !meta.data[index].hidden;
+                      chart.update();
+                    },
+                  },
+                  title: {
+                    display: true,
+                    text: "Distribución de Usuarios por Nivel",
+                    color: "#ffffff",
+                    font: { family: "Inter", size: 18, weight: "600" },
+                    padding: { bottom: 30 },
+                  },
+                  tooltip: {
+                    backgroundColor: "rgba(15, 23, 42, 0.95)",
+                    titleColor: "#ffffff",
+                    bodyColor: "#e2e8f0",
+                    borderColor: "rgba(255, 255, 255, 0.1)",
+                    borderWidth: 1,
+                    cornerRadius: 8,
+                    padding: 12,
+                    displayColors: true,
+                    usePointStyle: true,
+                    callbacks: {
+                      label: function (context) {
+                        const total = context.dataset.data.reduce(
+                          (a, b) => a + b,
+                          0
+                        );
+                        const percentage = (
+                          (context.parsed / total) *
+                          100
+                        ).toFixed(1);
+                        return ` ${context.label}: ${context.parsed} usuarios (${percentage}%)`;
+                      },
+                      footer: function (context) {
+                        const total = context[0].dataset.data.reduce(
+                          (a, b) => a + b,
+                          0
+                        );
+                        return [`Total: ${total} usuarios`];
+                      },
+                    },
+                  },
+                  datalabels: {
+                    display: true,
+                    color: "#ffffff",
+                    font: { family: "Inter", size: 15, weight: "bold" },
+                    formatter: (value, context) => {
+                      const total = context.dataset.data.reduce(
+                        (a, b) => a + b,
+                        0
+                      );
+                      const percentage = Math.round((value / total) * 100);
+                      return percentage >= 5 ? `${percentage}%` : "";
+                    },
+                    anchor: "center",
+                    align: "center",
+                    offset: 0,
+                    clip: false,
+                  },
+                },
+                cutout: "65%",
+                radius: "90%",
+                animation: {
+                  animateRotate: true,
+                  animateScale: true,
+                  duration: 1500,
+                  easing: "easeOutQuart",
+                },
+                layout: {
+                  padding: { top: 20, bottom: 20, left: 20, right: 20 },
+                },
+                onHover: (event, chartElement) => {
+                  event.native.target.style.cursor = chartElement[0]
+                    ? "pointer"
+                    : "default";
+                },
+              },
+              plugins: [ChartDataLabels],
+            });
+          });
+      });
+
+      // Script para la gráfica de columnas apiladas de badges
+      document.addEventListener("DOMContentLoaded", function () {
+        const csvFilePath =
+          "./pag2/Recuento de BadgeKey por BadgeName y BadgeCategory.csv";
+
+        fetch(csvFilePath)
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(
+                `No se pudo cargar el archivo CSV: ${csvFilePath}`
+              );
+            }
+            return response.text();
+          })
+          .then((csvData) => {
+            const rows = csvData.split(/\r\n|\n/);
+            const headers = rows[0].split(",").map((h) => h.trim());
+
+            // Process the data
+            const badgeData = {};
+            for (let i = 1; i < rows.length; i++) {
+              const row = rows[i].trim();
+              if (!row) continue;
+
+              const cols = row.split(",");
+              if (cols.length < 3) continue;
+
+              const badgeName = cols[headers.indexOf("BadgeName")];
+              const badgeCategory = cols[headers.indexOf("BadgeCategory")];
+              const badgeCount =
+                parseInt(cols[headers.indexOf("Recuento de BadgeKey")]) || 0;
+
+              if (badgeName && badgeCategory) {
+                if (!badgeData[badgeName]) {
+                  badgeData[badgeName] = {};
+                }
+                badgeData[badgeName][badgeCategory] = badgeCount;
+              }
+            }
+
+            // Prepare datasets
+            const categories = ["Silver Badge", "Special Badge"];
+            const badgeNames = Object.keys(badgeData);
+            const datasets = categories.map((category, index) => {
+              return {
+                label: category,
+                data: badgeNames.map(
+                  (badgeName) => badgeData[badgeName][category] || 0
+                ),
+                backgroundColor:
+                  index === 0
+                    ? "rgba(99, 102, 241, 0.8)"
+                    : "rgba(16, 185, 129, 0.8)",
+                borderColor: "rgba(255, 255, 255, 0.2)",
+                borderWidth: 1,
+                hoverBackgroundColor:
+                  index === 0
+                    ? "rgba(99, 102, 241, 1)"
+                    : "rgba(16, 185, 129, 1)",
+                borderRadius: 4,
+                barPercentage: 0.9,
+                categoryPercentage: 0.9,
+              };
+            });
+
+            // Draw the stacked bar chart
+            const ctx = document
+              .getElementById("stackedBarChart")
+              .getContext("2d");
+            new Chart(ctx, {
+              type: "bar",
+              data: {
+                labels: badgeNames,
+                datasets: datasets,
+              },
+              options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: "x",
+                scales: {
+                  x: {
+                    stacked: true,
+                    grid: {
+                      display: false,
+                      drawBorder: false,
+                    },
+                    ticks: {
+                      color: "#e2e8f0",
+                      font: {
+                        family: "Inter",
+                        size: 12,
+                        weight: "500",
+                      },
+                      maxRotation: 45,
+                      minRotation: 45,
+                    },
+                  },
+                  y: {
+                    stacked: true,
+                    beginAtZero: true,
+                    grid: {
+                      color: "rgba(255, 255, 255, 0.05)",
+                      drawBorder: false,
+                    },
+                    ticks: {
+                      color: "#e2e8f0",
+                      font: {
+                        family: "Inter",
+                        size: 12,
+                        weight: "500",
+                      },
+                      callback: function (value) {
+                        return value.toLocaleString();
+                      },
+                      stepSize: 10000, // Adjust step size for better readability
+                    },
+                    title: {
+                      display: true,
+                      text: "Recuento de BadgeKey",
+                      color: "#e2e8f0",
+                      font: {
+                        family: "Inter",
+                        size: 14,
+                        weight: "600",
+                      },
+                    },
+                  },
+                },
+                plugins: {
+                  legend: {
+                    position: "top",
+                    align: "center",
+                    labels: {
+                      color: "#e2e8f0",
+                      font: {
+                        family: "Inter",
+                        size: 14,
+                        weight: "500",
+                      },
+                      padding: 15,
+                      usePointStyle: true,
+                      pointStyle: "rect",
+                      boxWidth: 10,
+                    },
+                  },
+                  title: {
+                    display: true,
+                    text: "Distribución de Badges por Categoría",
+                    color: "#ffffff",
+                    font: {
+                      family: "Inter",
+                      size: 18,
+                      weight: "600",
+                    },
+                    padding: {
+                      bottom: 20,
+                    },
+                  },
+                  tooltip: {
+                    backgroundColor: "rgba(15, 23, 42, 0.95)",
+                    titleColor: "#ffffff",
+                    bodyColor: "#e2e8f0",
+                    borderColor: "rgba(255, 255, 255, 0.1)",
+                    borderWidth: 1,
+                    cornerRadius: 8,
+                    padding: 12,
+                    displayColors: true,
+                    usePointStyle: true,
+                    callbacks: {
+                      label: function (context) {
+                        const label = context.dataset.label || "";
+                        const value = context.raw || 0;
+                        return ` ${label}: ${value.toLocaleString()}`;
+                      },
+                      footer: function (context) {
+                        const total = context.reduce(
+                          (sum, item) => sum + item.raw,
+                          0
+                        );
+                        return [`Total: ${total.toLocaleString()}`];
+                      },
+                    },
+                  },
+                  datalabels: {
+                    display: true,
+                    color: "#ffffff",
+                    font: { family: "Inter", size: 12, weight: "bold" },
+                    formatter: (value) =>
+                      value > 0 ? value.toLocaleString() : "",
+                    anchor: "end",
+                    align: "top",
+                    offset: 4,
+                  },
+                },
+                animation: {
+                  duration: 1500,
+                  easing: "easeOutQuart",
+                },
+                layout: {
+                  padding: {
+                    left: 10,
+                    right: 10,
+                    top: 20,
+                    bottom: 20,
+                  },
+                },
+                barThickness: 20, // Increase bar thickness for wider columns
+                maxBarThickness: 30, // Set maximum thickness to avoid overlap
+              },
+              plugins: [ChartDataLabels],
+            });
+          })
+          .catch((error) => {
+            console.error("Error al cargar datos de badges:", error);
+            const ctx = document
+              .getElementById("stackedBarChart")
+              .getContext("2d");
+            ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
+            ctx.font = "16px Inter";
+            ctx.textAlign = "center";
+            ctx.fillText(
+              "Error al cargar datos de badges",
+              ctx.canvas.width / 2,
+              ctx.canvas.height / 2
+            );
+          });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard de Votaciones</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ["Inter", "sans-serif"],
+            },
+            colors: {
+              primary: "#6366f1",
+              "primary-dark": "#4f46e5",
+              secondary: "#06b6d4",
+              success: "#10b981",
+              warning: "#f59e0b",
+              danger: "#ef4444",
+              "bg-primary": "#0a0a1a",
+              "bg-secondary": "#1a1a2e",
+            },
+            animation: {
+              "fade-in": "fadeIn 0.8s ease-out",
+              "slide-up": "slideUp 0.6s ease-out",
+              "pulse-slow": "pulse 3s infinite",
+            },
+            keyframes: {
+              fadeIn: {
+                "0%": { opacity: "0" },
+                "100%": { opacity: "1" },
+              },
+              slideUp: {
+                "0%": { opacity: "0", transform: "translateY(20px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100vh;
+        overflow-x: hidden;
+        font-family: "Inter", sans-serif;
+      }
+
+      body {
+        background: linear-gradient(
+          135deg,
+          #0a0a1a 0%,
+          #1a1a2e 50%,
+          #16213e 100%
+        );
+        position: relative;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(
+            circle at 25% 25%,
+            rgba(99, 102, 241, 0.15) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 75% 75%,
+            rgba(6, 182, 212, 0.1) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 50% 50%,
+            rgba(16, 185, 129, 0.05) 0%,
+            transparent 50%
+          );
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .dashboard-container {
+        position: relative;
+        z-index: 1;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .glass-card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      }
+
+      .glass-card:hover {
+        background: rgba(255, 255, 255, 0.08);
+        border-color: rgba(255, 255, 255, 0.2);
+        transform: translateY(-2px);
+      }
+
+      .gradient-text {
+        background: linear-gradient(135deg, #6366f1, #06b6d4, #10b981);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .metric-card {
+        background: linear-gradient(
+          135deg,
+          rgba(99, 102, 241, 0.1),
+          rgba(6, 182, 212, 0.05)
+        );
+        border: 1px solid rgba(99, 102, 241, 0.2);
+      }
+
+      .table-container {
+        max-height: 400px;
+        overflow-y: auto;
+      }
+
+      .table-container::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .table-container::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 3px;
+      }
+
+      .table-container::-webkit-scrollbar-thumb {
+        background: rgba(99, 102, 241, 0.5);
+        border-radius: 3px;
+      }
+
+      .filter-input:focus {
+        box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.3);
+        outline: none;
+      }
+      .chart-container {
+        height: 400px;
+        width: 100%;
+        overflow-x: auto;
+        position: relative;
+      }
+      .sidebar-toggle {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+      }
+
+      @media (max-width: 1024px) {
+        .dashboard-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .metrics-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 640px) {
+        .metrics-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .dashboard-container {
+          padding: 0.5rem;
+        }
+      }
+
+      .loading-shimmer {
+        background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0.05) 0%,
+          rgba(255, 255, 255, 0.1) 50%,
+          rgba(255, 255, 255, 0.05) 100%
+        );
+        background-size: 200% 100%;
+        animation: shimmer 2s infinite;
+      }
+
+      @keyframes shimmer {
+        0% {
+          background-position: -200% 0;
+        }
+        100% {
+          background-position: 200% 0;
+        }
+      }
+    </style>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="text-white">
+    <div class="dashboard-container">
+      <!-- Header compacto -->
+      <div class="flex-shrink-0 px-6 py-4 border-b border-white/10">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div
+              class="w-10 h-10 rounded-xl bg-gradient-to-r from-primary to-secondary flex items-center justify-center"
+            >
+              <i class="fas fa-chart-line text-white text-lg"></i>
+            </div>
+            <div>
+              <h1 class="text-2xl font-bold gradient-text">
+                Dashboard de Votaciones
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contenido principal -->
+      <div class="flex-1 px-6 pb-6 min-h-0">
+        <div class="grid grid-cols-12 gap-6 h-full">
+          <!-- Columna izquierda - Tabla y Gráfico de Barras -->
+          <div class="col-span-8 flex flex-col gap-6">
+            <!-- Tabla de datos -->
+            <div class="glass-card rounded-2xl overflow-hidden flex flex-col">
+              <div class="flex-shrink-0 p-4 border-b border-white/10">
+                <div class="flex items-center justify-between mb-3">
+                  <h3
+                    class="text-lg font-semibold text-white flex items-center gap-2"
+                  >
+                    <i class="fas fa-table text-primary"></i>
+                    Votos por Ubicación
+                  </h3>
+                  <div class="flex items-center gap-2">
+                    <input
+                      type="text"
+                      id="filterLocation"
+                      class="filter-input px-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-white text-xs w-48"
+                      placeholder="Buscar ubicación..."
+                    />
+                    <select
+                      id="sortDownVotes"
+                      class="filter-input px-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-white text-xs"
+                    >
+                      <option value="">Sin ordenar</option>
+                      <option value="asc">Ascendente</option>
+                      <option value="desc">Descendente</option>
+                    </select>
+                    <select
+                      id="sortUpVotes"
+                      class="filter-input px-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-white text-xs"
+                    >
+                      <option value="">Sin ordenar</option>
+                      <option value="asc">Ascendente</option>
+                      <option value="desc">Descendente</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex-1 table-container">
+                <table class="w-full border-collapse">
+                  <thead class="sticky top-0 bg-white/5 backdrop-blur-sm">
+                    <tr>
+                      <th
+                        class="px-4 py-3 text-left text-xs font-medium text-slate-400 uppercase tracking-wider border-b border-white/10"
+                      >
+                        <i class="fas fa-map-marker-alt"></i> Ubicación
+                      </th>
+                      <th
+                        class="px-4 py-3 text-left text-xs font-medium text-slate-400 uppercase tracking-wider border-b border-white/10"
+                      >
+                        <i class="fas fa-thumbs-down"></i> DownVotes
+                      </th>
+                      <th
+                        class="px-4 py-3 text-left text-xs font-medium text-slate-400 uppercase tracking-wider border-b border-white/10"
+                      >
+                        <i class="fas fa-thumbs-up"></i> UpVotes
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody id="tableBody" class="divide-y divide-white/5">
+                    <tr>
+                      <td colspan="3" class="px-6 py-8 text-center">
+                        <div
+                          class="flex items-center justify-center gap-4 text-slate-400 text-sm"
+                        >
+                          <div
+                            class="w-5 h-5 border-2 border-white/10 border-t-primary rounded-full animate-spin"
+                          ></div>
+                          Cargando datos...
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="flex-shrink-0 p-3 border-t border-white/10">
+                <div
+                  class="flex items-center justify-center gap-4 mt-4 flex-wrap"
+                >
+                  <button
+                    id="prevBtn"
+                    class="px-4 py-2 glass-card rounded-lg text-white cursor-pointer transition-all duration-300 text-sm backdrop-blur-md hover:bg-primary hover:border-primary hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    <i class="fas fa-chevron-left"></i> Anterior
+                  </button>
+                  <span id="pageInfo" class="text-slate-400 text-sm font-medium"
+                    >Página 1 de 1</span
+                  >
+                  <div class="flex items-center gap-2">
+                    <input
+                      type="number"
+                      id="gotoPage"
+                      class="w-16 px-2 py-2 bg-white/5 border border-white/10 rounded-md text-white text-center text-sm"
+                      min="1"
+                      placeholder="1"
+                    />
+                    <button
+                      id="gotoBtn"
+                      class="px-4 py-2 glass-card rounded-lg text-white cursor-pointer transition-all duration-300 text-sm backdrop-blur-md hover:bg-primary hover:border-primary hover:-translate-y-1"
+                    >
+                      Ir
+                    </button>
+                  </div>
+                  <button
+                    id="nextBtn"
+                    class="px-4 py-2 glass-card rounded-lg text-white cursor-pointer transition-all duration-300 text-sm backdrop-blur-md hover:bg-primary hover:border-primary hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    Siguiente <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Gráfico de Barras Apiladas -->
+            <div class="glass-card rounded-2xl p-6">
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="w-10 h-10 rounded-xl bg-gradient-to-r from-warning to-danger flex items-center justify-center"
+                >
+                  <i class="fas fa-chart-bar text-white text-lg"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-white">
+                  Distribución de Badges por Categoría
+                </h3>
+              </div>
+              <div
+                class="chart-container"
+                style="overflow-x: auto; height: 400px"
+              >
+                <div
+                  id="stackedBarChartContainer"
+                  style="min-width: 800px; height: 100%"
+                >
+                  <canvas id="stackedBarChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna derecha - Gráfico de usuarios -->
+          <div class="col-span-4">
+            <div class="glass-card rounded-2xl p-6 h-full">
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="w-10 h-10 rounded-xl bg-gradient-to-r from-secondary to-primary flex items-center justify-center"
+                >
+                  <i class="fas fa-chart-pie text-white text-lg"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-white">
+                  Usuarios por Nivel
+                </h3>
+              </div>
+              <div class="chart-container">
+                <canvas id="doughnutChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+    <script type="module" src="stackedBarChart.js"></script>
+    <script type="module" src="tableManager.js"></script>
+    <script type="module" src="doughnutChart.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

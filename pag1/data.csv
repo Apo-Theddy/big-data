@@ -1,0 +1,4819 @@
+﻿Location,Recuento de DownVotes,Recuento de UpVotes
+United States,2730,2785
+London,1654,1690
+United Kingdom,1517,1553
+San Francisco,1078,1109
+New York,1012,1043
+Seattle,876,908
+Germany,670,693
+California,622,653
+India,601,632
+Australia,560,591
+Toronto,554,583
+Netherlands,544,573
+Sydney,527,554
+Sweden,522,551
+Chicago,470,497
+Canada,456,485
+Melbourne,453,482
+Austin,447,474
+Bangalore,419,446
+Boston,418,445
+Portland,384,411
+Berlin,373,400
+Atlanta,354,379
+Vancouver,351,378
+Israel,338,363
+Los Angeles,329,355
+Montreal,319,344
+Stockholm,308,333
+England,304,331
+France,297,324
+Denmark,287,312
+Paris,268,293
+Brazil,262,287
+Belgium,250,275
+Cambridge,245,270
+Washington,231,257
+Moscow,221,246
+Singapore,220,245
+Poland,219,244
+San Diego,217,242
+Amsterdam,215,240
+Dallas,214,239
+Switzerland,213,238
+Norway,209,234
+Italy,206,231
+Denver,203,228
+New Zealand,202,227
+Dublin,195,220
+Minneapolis,195,220
+Brisbane,193,218
+Oslo,189,214
+Houston,182,207
+Philadelphia,178,203
+Pittsburgh,168,193
+Ottawa,167,192
+Russia,165,190
+South Africa,163,188
+Finland,160,185
+Ireland,158,183
+Munich,157,182
+Pune,153,178
+Redmond,152,177
+Chennai,150,175
+New Jersey,150,175
+Brooklyn,147,172
+San Jose,142,167
+Copenhagen,139,164
+Mountain View,138,163
+Istanbul,135,160
+Auckland,134,159
+Columbus,133,158
+Barcelona,130,155
+Perth,129,154
+Texas,129,154
+Mumbai,123,150
+Manchester,121,146
+Ukraine,119,144
+Calgary,117,142
+Vienna,117,142
+Phoenix,116,141
+Virginia,114,139
+Buenos Aires,112,137
+Portugal,110,135
+Cape Town,107,132
+China,106,131
+Colorado,103,128
+Hyderabad,103,128
+Florida,101,126
+Massachusetts,101,126
+Salt Lake City,101,126
+Madrid,99,123
+Bristol,97,121
+Hamburg,97,121
+Indianapolis,97,121
+Warsaw,96,120
+Boulder,95,119
+Prague,95,119
+Austria,94,118
+Madison,94,118
+Michigan,94,118
+St Louis,94,118
+Romania,93,117
+Bucharest,92,116
+Nashville,92,116
+Edinburgh,91,115
+Minnesota,91,115
+Tokyo,91,115
+Spain,89,113
+Baltimore,85,110
+Raleigh,85,110
+Ohio,84,109
+Utah,84,109
+Budapest,83,108
+Philippines,83,108
+Scotland,83,108
+Earth,82,107
+Rochester,82,107
+Zurich,80,105
+Glasgow,78,103
+Maryland,78,103
+St. Petersburg,78,103
+Sunnyvale,77,102
+Athens,76,101
+Pennsylvania,76,101
+Orlando,75,100
+Birmingham,74,99
+Cincinnati,74,99
+Hong Kong,74,99
+Indiana,74,99
+Beijing,73,98
+Cleveland,73,98
+Illinois,72,97
+Mexico,70,95
+Czech Republic,69,94
+Palo Alto,69,94
+Argentina,68,93
+Shanghai,68,93
+Berkeley,67,92
+Delaware,67,92
+Delhi,66,91
+Helsinki,66,91
+Sao Paulo,66,91
+Brighton,65,90
+Oakland,64,89
+Edmonton,63,88
+North Carolina,62,87
+Turkey,62,87
+Kansas City,61,86
+Adelaide,59,84
+Europe,59,84
+Johannesburg,59,84
+Gothenburg,58,83
+Milwaukee,58,83
+Tampa,58,83
+Waterloo,57,82
+Las Vegas,56,81
+Wisconsin,54,79
+Sofia,53,78
+Wellington,53,78
+Kiev,52,77
+Lisbon,52,77
+Ontario,52,77
+San Francisco Bay Area,52,77
+Victoria,52,77
+Oxford,51,76
+Oregon,50,75
+Leeds,48,73
+Reading,48,73
+Richmond,47,72
+Charlotte,46,71
+Miami,46,71
+Milan,46,71
+Nottingham,46,71
+Tel Aviv,45,70
+Arlington,44,69
+Connecticut,44,69
+Hungary,44,69
+Rio De Janeiro,44,69
+Sacramento,44,69
+Grand Rapids,43,68
+Ann Arbor,42,67
+Boise,42,67
+Brussels,42,67
+Bellevue,41,66
+Canberra,41,66
+Bulgaria,40,65
+Columbia,39,64
+Japan,39,64
+USA,39,64
+Estonia,50,50
+Louisville,50,50
+Malaysia,50,50
+Pakistan,50,50
+Minsk,49,49
+Slovenia,49,49
+Belgrade,48,48
+Cologne,48,48
+New Hampshire,48,48
+Bergen,47,47
+Riga,47,47
+Zagreb,47,47
+Greece,46,46
+Quebec City,46,46
+Santiago,46,46
+Arizona,45,45
+Omaha,45,45
+Tehran,45,45
+Vilnius,45,45
+Durham,44,44
+Cluj-Napoca,43,43
+Karachi,43,43
+UK,43,43
+Irvine,42,42
+Ahmadabad,41,41
+Egypt,41,41
+Iran,41,41
+Jacksonville,41,41
+Knoxville,41,41
+Christchurch,40,40
+San Antonio,40,40
+Utrecht,40,40
+Des Moines,39,39
+Rome,39,39
+Winnipeg,39,39
+Wroclaw,39,39
+Bangkok,38,38
+Cary,37,37
+Dhaka,37,37
+Huntsville,37,37
+Iowa,37,37
+Jakarta,37,37
+Lithuania,37,37
+Malmö,37,37
+Newcastle upon Tyne,37,37
+Santa Clara,37,37
+Tallinn,37,37
+Detroit,36,36
+Indonesia,36,36
+Southampton,36,36
+St. Louis,36,36
+Belfast,35,35
+Colorado Springs,35,35
+Croatia,35,35
+Kirkland,35,35
+Rotterdam,35,35
+Santa Cruz,35,35
+Sheffield,35,35
+Taiwan,35,35
+Thailand,35,35
+Halifax,34,34
+British Columbia,33,33
+Buffalo,33,33
+Ljubljana,33,33
+Stuttgart,33,33
+Chile,32,32
+Dresden,32,32
+Lyon,32,32
+Memphis,32,32
+Mexico City,32,32
+Oklahoma City,32,32
+San Mateo,32,32
+Seoul,32,32
+Gainesville,31,31
+Somerville,31,31
+Tennessee,31,31
+Timisoara,31,31
+Trondheim,31,31
+Bellingham,30,30
+Georgia,30,30
+Hamilton,30,30
+Iceland,30,30
+Porto,30,30
+Vermont,30,30
+Vietnam,30,30
+Alabama,29,29
+Antwerp,29,29
+Dubai,29,29
+Lincoln,29,29
+Santa Barbara,29,29
+Tucson,29,29
+Alexandria,28,28
+Ankara,28,28
+Cardiff,28,28
+Cracow,28,28
+Maine,28,28
+Manila,28,28
+Newcastle,28,28
+Novosibirsk,28,28
+Plano,28,28
+Wales,28,28
+Greenville,27,27
+Missouri,27,27
+NYC,27,27
+South Korea,27,27
+Spokane,27,27
+Cupertino,26,26
+Fort Collins,26,26
+Geneva,26,26
+Karlsruhe,26,26
+Kuala Lumpur,26,26
+Reykjavik,26,26
+Serbia,26,26
+South Carolina,26,26
+The Hague,26,26
+York,26,26
+Bay Area,25,25
+Bogota,25,25
+Burlington,25,25
+Düsseldorf,25,25
+Scottsdale,25,25
+St Paul,25,25
+Aachen,24,24
+Albany,24,24
+Bath,24,24
+Chapel Hill,24,24
+Frankfurt am Main,24,24
+Grenoble,24,24
+Lexington,24,24
+Montevideo,24,24
+Silicon Valley,24,24
+Slovakia,24,24
+Albuquerque,23,23
+Bloomington,23,23
+Fort Worth,23,23
+Gurgaon,23,23
+Reston,23,23
+Santa Monica,23,23
+Taipei City,23,23
+Tulsa,23,23
+Uppsala,23,23
+Zürich,23,23
+Bratislava,22,22
+Bremen,22,22
+Cairo,22,22
+Corvallis,22,22
+Hendersonville,22,22
+Kitchener,22,22
+Liverpool,22,22
+Northampton,22,22
+Pasadena,22,22
+Provo,22,22
+Toulouse,22,22
+Århus,21,21
+Berne,21,21
+Charleston,21,21
+Frankfurt,21,21
+Overland Park,21,21
+Quebec,21,21
+Springfield,21,21
+Belarus,20,20
+Bournemouth,20,20
+Colombo,20,20
+Ghent,20,20
+Lafayette,20,20
+Lahore,20,20
+Lancaster,20,20
+Lund,20,20
+Sri Lanka,20,20
+Syracuse,20,20
+Tacoma,20,20
+Uruguay,20,20
+Belo Horizonte,19,19
+Charlottesville,19,19
+Dayton,19,19
+Eugene,19,19
+Kharkiv,19,19
+Kochi,19,19
+Kolkata,19,19
+Malta,19,19
+San Luis Obispo,19,19
+Bengaluru,18,18
+Chattanooga,18,18
+Fairfax,18,18
+Fremont,18,18
+Jersey City,18,18
+Kansas,18,18
+Lima,18,18
+Menlo Park,18,18
+Nebraska,18,18
+New Orleans,18,18
+New York City,18,18
+Novi Sad,18,18
+Nuremberg,18,18
+Porto Alegre,18,18
+Turin,18,18
+Bonn,17,17
+Brno,17,17
+Chandler,17,17
+Cork,17,17
+Florence,17,17
+Idaho,17,17
+Islamabad,17,17
+Lausanne,17,17
+Little Rock,17,17
+Noida,17,17
+Queensland,17,17
+Redwood City,17,17
+Skopje,17,17
+Alberta,16,16
+Bothell,16,16
+Colombia,16,16
+Delft,16,16
+Florianópolis,16,16
+Groningen,16,16
+Harrisburg,16,16
+Honolulu,16,16
+Jordan,16,16
+Leipzig,16,16
+Los Gatos,16,16
+Luxembourg City,16,16
+Norwich,16,16
+Oklahoma,16,16
+Portsmouth,16,16
+Poznan,16,16
+Providence,16,16
+Rhode Island,16,16
+Saint Petersburg,16,16
+Sarasota,16,16
+Virginia Beach,16,16
+Akron,15,15
+Asheville,15,15
+Baton Rouge,15,15
+Canton,15,15
+Cebu,15,15
+Costa Rica,15,15
+Eindhoven,15,15
+Herndon,15,15
+Jerusalem,15,15
+Kraków,15,15
+Lansing,15,15
+Latvia,15,15
+Linköping,15,15
+Lviv,15,15
+Princeton,15,15
+Salem,15,15
+Stanford,15,15
+Tallahassee,15,15
+Tempe,15,15
+The Netherlands,15,15
+Aalborg,14,14
+Alpharetta,14,14
+Bangladesh,14,14
+Beaverton,14,14
+Bethesda,14,14
+Bordeaux,14,14
+Coimbatore,14,14
+Cyprus,14,14
+Dominican Republic,14,14
+Guatemala,14,14
+Hangzhou,14,14
+Heidelberg,14,14
+Ithaca,14,14
+Kelowna,14,14
+Kyiv,14,14
+Long Beach,14,14
+Orem,14,14
+Saskatoon,14,14
+Tbilisi,14,14
+Valencia,14,14
+Apex,13,13
+Arkansas,13,13
+Blacksburg,13,13
+Champaign,13,13
+Fort Lauderdale,13,13
+Graz,13,13
+Guadalajara,13,13
+Hanoi,13,13
+Hilversum,13,13
+Ho Chi Minh City,13,13
+Hobart,13,13
+Issaquah,13,13
+Kerala,13,13
+Krakow,13,13
+Leiden,13,13
+Monterrey,13,13
+New Delhi,13,13
+Newark,13,13
+Northern Ireland,13,13
+Plymouth,13,13
+Reno,13,13
+Rockville,13,13
+Silver Spring,13,13
+Thiruvananthapuram,13,13
+United Arab Emirates,13,13
+West Palm Beach,13,13
+Wichita,13,13
+Alameda,12,12
+Amman,12,12
+Anchorage,12,12
+Appleton,12,12
+Bologna,12,12
+Caracas,12,12
+Chisinau,12,12
+Coventry,12,12
+Dundee,12,12
+Espirito Santo,12,12
+Fargo,12,12
+Guangzhou,12,12
+Hollywood,12,12
+Kent,12,12
+Louisiana,12,12
+Marseille,12,12
+Milton Keynes,12,12
+Mississauga,12,12
+Nantes,12,12
+Nova Scotia,12,12
+Olympia,12,12
+Puerto Rico,12,12
+Recife,12,12
+Rosario,12,12
+Sioux Falls,12,12
+Troy,12,12
+Wilmington,12,12
+Anaheim,11,11
+Ashburn,11,11
+Carlsbad,11,11
+Cheltenham,11,11
+Dortmund,11,11
+Duluth,11,11
+Exeter,11,11
+Fredericton,11,11
+Galway,11,11
+Gdansk,11,11
+Greensboro,11,11
+Haifa,11,11
+Hillsboro,11,11
+Huddersfield,11,11
+Kentucky,11,11
+Luxembourg,11,11
+Nice,11,11
+Oceanside,11,11
+Orange County,11,11
+Oulu,11,11
+Phnom Penh,11,11
+Regina,11,11
+Seville,11,11
+St Petersburg,11,11
+Walnut Creek,11,11
+Worcester,11,11
+Bangkok Thailand,10,10
+Bavaria,10,10
+Bend,10,10
+Brasilia,10,10
+Brasov,10,10
+Burbank,10,10
+Campinas,10,10
+Colchester,10,10
+College Station,10,10
+Curitiba,10,10
+Davis,10,10
+Derby,10,10
+Dunedin,10,10
+Fort Wayne,10,10
+Franklin,10,10
+Guildford,10,10
+Hartford,10,10
+Ipswich,10,10
+La Crosse,10,10
+Montpellier,10,10
+New Mexico,10,10
+Olathe,10,10
+Pensacola,10,10
+Peoria,10,10
+Round Rock,10,10
+Salzburg,10,10
+Sammamish,10,10
+Saudi Arabia,10,10
+SF Bay Area,10,10
+South Dakota,10,10
+Stafford,10,10
+Sterling,10,10
+Tampere,10,10
+Tartu,10,10
+Thessaloniki,10,10
+Toledo,10,10
+Venezuela,10,10
+Winchester,10,10
+Yangon,10,10
+Yerevan,10,10
+Amersfoort,9,9
+Auburn,9,9
+Aurora,9,9
+Bozeman,9,9
+Chester,9,9
+Coimbra,9,9
+Cordoba,9,9
+Darmstadt,9,9
+District of Columbia,9,9
+Emeryville,9,9
+Espoo,9,9
+Essen,9,9
+Everywhere,9,9
+Folsom,9,9
+Fresno,9,9
+Glendale,9,9
+Guelph,9,9
+Hanover,9,9
+Holland,9,9
+Iowa City,9,9
+Kuwait,9,9
+Lebanon,9,9
+Lille,9,9
+Linz,9,9
+Littleton,9,9
+Livermore,9,9
+Longmont,9,9
+Mesa,9,9
+Montana,9,9
+Nairobi,9,9
+Nashua,9,9
+Odense,9,9
+Peterborough,9,9
+Pretoria,9,9
+Rennes,9,9
+Saint Paul,9,9
+Santa Rosa,9,9
+São Paulo,9,9
+Stillwater,9,9
+Swindon,9,9
+Szczecin,9,9
+Tashkent,9,9
+Tel Aviv-Yafo,9,9
+Ulm,9,9
+Waltham,9,9
+Wrocław,9,9
+Yekaterinburg,9,9
+Zaragoza,9,9
+Aberdeen,8,8
+Asuncion,8,8
+Bedford,8,8
+Burnaby,8,8
+Carmel,8,8
+Devon,8,8
+Edmond,8,8
+Ellicott City,8,8
+Erie,8,8
+Farmville,8,8
+Freiburg,8,8
+Frisco,8,8
+Gilbert,8,8
+Haarlem,8,8
+Hawaii,8,8
+Huntington Beach,8,8
+Jamaica,8,8
+Kaunas,8,8
+Lagos,8,8
+Laval,8,8
+Lehi,8,8
+Leicester,8,8
+Leuven,8,8
+Lübeck,8,8
+Middletown,8,8
+Missoula,8,8
+Moncton,8,8
+Montréal,8,8
+Münster,8,8
+Nepal,8,8
+Nigeria,8,8
+Padua,8,8
+Peru,8,8
+Pleasanton,8,8
+Richardson,8,8
+Riyadh,8,8
+San Marcos,8,8
+Santa Fe,8,8
+Santo Domingo,8,8
+São Paulo - State of São Paulo,8,8
+Sarajevo,8,8
+Shenzhen,8,8
+State College,8,8
+Strasbourg,8,8
+Surrey,8,8
+Sydney NSW,8,8
+Syria,8,8
+Tshwane,8,8
+Turku,8,8
+West Des Moines,8,8
+Windsor,8,8
+Wollongong,8,8
+Woodstock,8,8
+World,8,8
+127.0.0.1,7,7
+Aarhus,7,7
+Ahmedabad,7,7
+Andover,7,7
+Arnhem,7,7
+Basingstoke,7,7
+Belmont,7,7
+Boca Raton,7,7
+Bradford,7,7
+Carrollton,7,7
+Catalonia,7,7
+Cedar Rapids,7,7
+Concord,7,7
+Denton,7,7
+Dubai - United Arab Emirates,7,7
+East Lansing,7,7
+Eden Prairie,7,7
+Enschede,7,7
+Farmington,7,7
+Fishers,7,7
+Gold Coast,7,7
+Hoboken,7,7
+Horsham,7,7
+Internet,7,7
+Jackson,7,7
+Johnstown,7,7
+Kingston,7,7
+Lawrence,7,7
+Los Altos,7,7
+Loveland,7,7
+Malvern,7,7
+Manhattan,7,7
+Manitoba,7,7
+Mclean,7,7
+Medford,7,7
+Montgomery,7,7
+München,7,7
+Naperville,7,7
+Naples,7,7
+New Haven,7,7
+Odessa,7,7
+Pacific Northwest,7,7
+Paraguay,7,7
+Potsdam,7,7
+Sherbrooke,7,7
+Stamford,7,7
+Stoke-on-Trent,7,7
+Taipei,7,7
+Tijuana,7,7
+Tromsø,7,7
+Tunisia,7,7
+Umeå,7,7
+US,7,7
+Växjö,7,7
+Venice,7,7
+Wakefield,7,7
+Warwick,7,7
+Washington DC,7,7
+Waterford,7,7
+White Plains,7,7
+Winston-Salem,7,7
+Allentown,6,6
+Ames,6,6
+Amherst,6,6
+Arvada,6,6
+Basel,6,6
+Beirut,6,6
+Billings,6,6
+Bolivia,6,6
+Broomfield,6,6
+Campbell,6,6
+Centreville,6,6
+Clearwater,6,6
+Corpus Christi,6,6
+Culver City,6,6
+Damascus,6,6
+Decatur,6,6
+Dnipropetrovsk,6,6
+Doha,6,6
+Downingtown,6,6
+Encinitas,6,6
+Erlangen,6,6
+Esbo,6,6
+Evanston,6,6
+Fayetteville,6,6
+Fredericksburg,6,6
+Gliwice,6,6
+Gloucester,6,6
+Green Bay,6,6
+Hampshire,6,6
+Harrogate,6,6
+Hayward,6,6
+Hermosillo,6,6
+Izmir,6,6
+Kathmandu,6,6
+Kiel,6,6
+La Plata,6,6
+Lawrenceville,6,6
+Leesburg,6,6
+Liège,6,6
+Lubbock,6,6
+MA,6,6
+Madurai,6,6
+Maidstone,6,6
+Málaga,6,6
+Marietta,6,6
+Marina Del Rey,6,6
+McKinney,6,6
+Melbourne VIC,6,6
+Miami Beach,6,6
+Middlesbrough,6,6
+Mobile,6,6
+Mysore,6,6
+Nanaimo,6,6
+New South Wales,6,6
+Newport,6,6
+Newton,6,6
+Norfolk,6,6
+Norman,6,6
+North America,6,6
+Northern California,6,6
+NY,6,6
+Oakton,6,6
+Oakville,6,6
+Orange,6,6
+Örebro,6,6
+Oxfordshire,6,6
+Panama,6,6
+Parker,6,6
+Perm',6,6
+Poole,6,6
+Pullman,6,6
+Redlands,6,6
+Roswell,6,6
+Royal Oak,6,6
+San Juan,6,6
+San Ramon,6,6
+Sandy,6,6
+Schenectady,6,6
+Shrewsbury,6,6
+Sibiu,6,6
+Split,6,6
+St. Paul,6,6
+Stavanger,6,6
+Tasmania,6,6
+Teresina,6,6
+the internet,6,6
+Trinidad and Tobago,6,6
+Urbana,6,6
+Watertown,6,6
+Wiesbaden,6,6
+Woodbridge,6,6
+Alaska,5,5
+Algeria,5,5
+Almere,5,5
+Alton,5,5
+Anacortes,5,5
+Annandale,5,5
+Aschaffenburg,5,5
+Aveiro,5,5
+Bahrain,5,5
+Baku,5,5
+Baroda,5,5
+Bern,5,5
+Bilbao,5,5
+Bloomfield,5,5
+Blumenau,5,5
+Bolton,5,5
+Breda,5,5
+Canterbury,5,5
+Chandgad,5,5
+Charlottetown,5,5
+Chesapeake,5,5
+Chesterfield,5,5
+Delray Beach,5,5
+Dover,5,5
+Durban,5,5
+Ekaterinburg,5,5
+Ethekwini,5,5
+Ferrières,5,5
+Flagstaff,5,5
+Frederick,5,5
+Gdańsk,5,5
+Hannover,5,5
+Hull,5,5
+Iasi,5,5
+Independence,5,5
+Isle of Man,5,5
+Jena,5,5
+Jyväskylä,5,5
+Kalamazoo,5,5
+Kazan',5,5
+Kuala Lumpur Federal Territory of Kuala Lumpur Malaysia,5,5
+La Jolla,5,5
+Lakeland,5,5
+Lenexa,5,5
+Londonderry,5,5
+Luton,5,5
+L'viv,5,5
+Mainz,5,5
+Mannheim,5,5
+Mid West,5,5
+Midlands,5,5
+Milano,5,5
+Monterey,5,5
+Nagpur,5,5
+New Brunswick,5,5
+Nomadic,5,5
+Oldenburg,5,5
+Orosi,5,5
+Oviedo,5,5
+Plovdiv,5,5
+Québec,5,5
+Queens,5,5
+Roseville,5,5
+San Carlos,5,5
+San Rafael,5,5
+Saratov,5,5
+Savannah,5,5
+SF,5,5
+Shreveport,5,5
+Somerset,5,5
+Somewhere,5,5
+South Australia,5,5
+Southeast,5,5
+Southern California,5,5
+Spring,5,5
+St. John's,5,5
+Sundsvall,5,5
+Szeged,5,5
+Temecula,5,5
+Tirana,5,5
+Torrance,5,5
+Tübingen,5,5
+Udine,5,5
+Västerås,5,5
+Westminster,5,5
+Zwolle,5,5
+'-,4,4
+Abbotsford,4,4
+Abilene,4,4
+Abu Dhabi,4,4
+Acton,4,4
+Algiers,4,4
+Ankeny,4,4
+Annapolis,4,4
+Apple Valley,4,4
+Armenia,4,4
+Ashland,4,4
+Augsburg,4,4
+Aylesbury,4,4
+Baden-Wurttemberg,4,4
+Bainbridge Island,4,4
+Bakersfield,4,4
+Bali,4,4
+Bandung,4,4
+Banja Luka,4,4
+Bergamo,4,4
+Bermuda,4,4
+Bishkek,4,4
+Bodø,4,4
+Bosnia and Herzegovina,4,4
+Boynton Beach,4,4
+Brasil,4,4
+Brookfield,4,4
+Brunswick,4,4
+CA,4,4
+Camarillo,4,4
+Cambodia,4,4
+Carlisle,4,4
+Carrboro,4,4
+Castle Rock,4,4
+Cedar Park,4,4
+Chandigarh,4,4
+Charlton,4,4
+Chelyabinsk,4,4
+Chengdu,4,4
+Chico,4,4
+College Park,4,4
+Cyberspace,4,4
+Ecuador,4,4
+Elk Grove,4,4
+Esbjerg,4,4
+Everett,4,4
+Exton,4,4
+Fairfield,4,4
+Farmington Hills,4,4
+Ferndale,4,4
+Flint,4,4
+Fort Myers,4,4
+Foster City,4,4
+Garland,4,4
+Gdynia,4,4
+Germantown,4,4
+Göteborg,4,4
+Grapevine,4,4
+Great Falls,4,4
+Gujarat,4,4
+Halmstad,4,4
+Harrisonburg,4,4
+Herriman,4,4
+Hertfordshire,4,4
+High Wycombe,4,4
+Highlands Ranch,4,4
+Hove,4,4
+Hudson,4,4
+Idaho Falls,4,4
+Innsbruck,4,4
+Johnson City,4,4
+Katy,4,4
+Kazakhstan,4,4
+Kennesaw,4,4
+Kristiansand,4,4
+Lakeville,4,4
+Las Cruces,4,4
+Leamington Spa,4,4
+Lethbridge,4,4
+Limerick,4,4
+Luleå,4,4
+Macedonia,4,4
+Magdeburg,4,4
+Maidenhead,4,4
+Manassas,4,4
+Mansfield,4,4
+Maple Grove,4,4
+Marbella,4,4
+Marburg,4,4
+Maribor,4,4
+Markham,4,4
+Marlborough,4,4
+Mechanicsburg,4,4
+Mechelen,4,4
+Medellín - Antioquia,4,4
+Middleton,4,4
+Mill Valley,4,4
+Mission,4,4
+MN,4,4
+Moldova,4,4
+Monrovia,4,4
+Montpelier,4,4
+Morristown,4,4
+Muncie,4,4
+Murfreesboro,4,4
+Murrieta,4,4
+Myrtle Beach,4,4
+Nanjing,4,4
+Natal,4,4
+Navi Mumbai,4,4
+Nelson,4,4
+Nelson Mandela Bay,4,4
+New England,4,4
+Newport Beach,4,4
+Nis,4,4
+Nizhny Novgorod,4,4
+NJ,4,4
+North Wales,4,4
+Norwalk,4,4
+Oak Park,4,4
+Oak Ridge,4,4
+Pacifica,4,4
+Paderborn,4,4
+Palestine,4,4
+Palma,4,4
+Palmerston North,4,4
+Panama City,4,4
+Pandva,4,4
+Pilsen,4,4
+Plainfield,4,4
+Poughkeepsie,4,4
+Poulsbo,4,4
+Prescott,4,4
+Preston,4,4
+Prince Edward Island,4,4
+Qatar,4,4
+Queretaro,4,4
+Ramat Gan,4,4
+Redondo Beach,4,4
+Richland,4,4
+Rio de Janeiro - RJ,4,4
+River Falls,4,4
+Riverton,4,4
+Roanoke,4,4
+Rock Hill,4,4
+Saint Louis,4,4
+Salvador,4,4
+San Bruno,4,4
+San Marino,4,4
+São Paulo - SP,4,4
+Saratoga Springs,4,4
+Scranton,4,4
+'s-Hertogenbosch,4,4
+Si,4,4
+SoCal,4,4
+Sophia-Antipolis,4,4
+Spring Hill,4,4
+Stellenbosch,4,4
+Stow,4,4
+Swansea,4,4
+Tamil Nadu,4,4
+Tauranga,4,4
+Tigard,4,4
+Tilburg,4,4
+Topeka,4,4
+Transylvania,4,4
+Tunis,4,4
+Twin Cities,4,4
+Udaipur,4,4
+Uganda,4,4
+Utica,4,4
+Valley Forge,4,4
+Ventura,4,4
+Viña del Mar,4,4
+Volgograd,4,4
+WA,4,4
+Washington State,4,4
+Wauwatosa,4,4
+Webster,4,4
+West Bloomfield,4,4
+West Lafayette,4,4
+Williamsport,4,4
+Woking,4,4
+Woodinville,4,4
+Zaporizhzhya,4,4
+A Coruña,3,3
+Aberystwyth,3,3
+Addis Ababa,3,3
+Aliso Viejo,3,3
+Alkmaar,3,3
+Allen,3,3
+American Fork,3,3
+Apeldoorn,3,3
+Aruba,3,3
+Asia,3,3
+Astoria,3,3
+ATL,3,3
+Augusta,3,3
+Baguio City,3,3
+Bangor,3,3
+Batavia,3,3
+Bay,3,3
+BC,3,3
+Belleville,3,3
+Beverly Hills,3,3
+Bhilai Nagar,3,3
+Bielefeld,3,3
+Bikaner,3,3
+Bilbo,3,3
+Bluffton,3,3
+Bochum,3,3
+Bradenton,3,3
+Braga,3,3
+Brandon,3,3
+Brentwood,3,3
+Bruges,3,3
+Burlingame,3,3
+Bursa,3,3
+Cagliari,3,3
+Camas,3,3
+Cambridgeshire,3,3
+Camp Hill,3,3
+Canary Islands,3,3
+Castro Valley,3,3
+Centennial,3,3
+Chantilly,3,3
+Charles Town,3,3
+Chichester,3,3
+Chilliwack,3,3
+Christiansburg,3,3
+Clarksville,3,3
+Clermont-Ferrand,3,3
+Clifton Park,3,3
+Cluj,3,3
+Como,3,3
+Constanta,3,3
+Cookeville,3,3
+Coral Springs,3,3
+Corona,3,3
+CT,3,3
+Danbury,3,3
+Darlington,3,3
+Darwin,3,3
+Davenport,3,3
+De Pere,3,3
+Debrecen,3,3
+Derbyshire,3,3
+Dnipropetrovs'k,3,3
+Doylestown,3,3
+Duisburg,3,3
+Dusseldorf,3,3
+Eagan,3,3
+Edison,3,3
+El Paso,3,3
+Elkhorn,3,3
+Esfahan,3,3
+Essex,3,3
+Europa,3,3
+Falls Church,3,3
+Falun,3,3
+Fleet,3,3
+Flensburg,3,3
+Flushing,3,3
+Framingham,3,3
+Fribourg,3,3
+Gaithersburg,3,3
+Gatineau,3,3
+Genoa,3,3
+George Town,3,3
+Georgetown,3,3
+Glens Falls,3,3
+Goleta,3,3
+Grafton,3,3
+Greater Boston,3,3
+Greater Seattle Area,3,3
+Greensburg,3,3
+Half Moon Bay,3,3
+Halle,3,3
+Hastings,3,3
+Hattiesburg,3,3
+hcmc,3,3
+Helmond,3,3
+Helsingborg,3,3
+Hertford,3,3
+Hightstown,3,3
+Hilliard,3,3
+Hoffman Estates,3,3
+Holly Springs,3,3
+Hoover,3,3
+Houma,3,3
+Huntington,3,3
+Irving,3,3
+Jaipur,3,3
+Janesville,3,3
+Joinville,3,3
+Kaliningrad,3,3
+Kalispell,3,3
+Kampala,3,3
+Karlstad,3,3
+Kassel,3,3
+Katowice,3,3
+Kensington,3,3
+Kenya,3,3
+Kerry,3,3
+Kihei,3,3
+Klagenfurt,3,3
+Kranj,3,3
+Kuta,3,3
+Kyiv city,3,3
+Lake Forest,3,3
+Lakewood,3,3
+Laurel,3,3
+Leavenworth,3,3
+Lewes,3,3
+Libya,3,3
+Limassol,3,3
+Linkoping,3,3
+Longueuil,3,3
+Longview,3,3
+Lowell,3,3
+Lower Hutt,3,3
+Lublin,3,3
+Maastricht,3,3
+Malden,3,3
+Managua,3,3
+Manaus,3,3
+Mangalore,3,3
+Mankato,3,3
+Mar del Plata,3,3
+Marlton,3,3
+McHenry,3,3
+Medellin,3,3
+Mendoza,3,3
+México,3,3
+Milton,3,3
+Mississippi,3,3
+Monroe,3,3
+Morgantown,3,3
+Morrisville,3,3
+Mount Pleasant,3,3
+Nagoya-shi,3,3
+Natick,3,3
+Neenah,3,3
+New Westminster,3,3
+Newbury,3,3
+Newfoundland and Labrador,3,3
+Newtown,3,3
+Nicosia,3,3
+Nizhegorodskaya Oblast,3,3
+Norristown,3,3
+North,3,3
+North Bend,3,3
+North Rhine-Westphalia,3,3
+North Vancouver,3,3
+Novi,3,3
+Nymegen,3,3
+Odesa,3,3
+Orenburg,3,3
+Ostend,3,3
+Oxnard,3,3
+PA,3,3
+Palatine,3,3
+Palermo,3,3
+Paradise,3,3
+Peachtree City,3,3
+Pennsville Twp,3,3
+Penza,3,3
+Petaluma,3,3
+Pisa,3,3
+Planet Earth,3,3
+Portage,3,3
+Pskov,3,3
+Purmerend,3,3
+Puyallup,3,3
+Rapid City,3,3
+Råwalpindi,3,3
+Redditch,3,3
+Renton,3,3
+Revere,3,3
+Reykjavík,3,3
+Rijeka,3,3
+Rijswijk,3,3
+Riverside,3,3
+Rocklin,3,3
+Rosenheim,3,3
+Salt Lake,3,3
+São José Dos Campos,3,3
+Schaumburg,3,3
+Scotts Valley,3,3
+Siegen,3,3
+Siena,3,3
+Snohomish,3,3
+Solar System,3,3
+Solingen,3,3
+South Bend,3,3
+South Jordan,3,3
+Spanish Fork,3,3
+Springville,3,3
+St Albans,3,3
+St Charles,3,3
+St. Charles,3,3
+Stevenage,3,3
+Stirling,3,3
+Stockport,3,3
+Stockton,3,3
+Stony Brook,3,3
+Stratford,3,3
+Stroudsburg,3,3
+Sudbury,3,3
+Suffolk,3,3
+Superior,3,3
+Sussex,3,3
+Suzhou,3,3
+Sylvania,3,3
+Taunton,3,3
+Tegucigalpa,3,3
+Telford,3,3
+Temple,3,3
+Thousand Oaks,3,3
+Tomsk,3,3
+Trento,3,3
+Trieste,3,3
+Trois-Rivieres,3,3
+Tula,3,3
+Tunbridge Wells,3,3
+Tver,3,3
+Ufa,3,3
+Union City,3,3
+Uzbekistan,3,3
+VA,3,3
+Valparaiso,3,3
+Varese,3,3
+Verona,3,3
+Wadsworth,3,3
+Wake Forest,3,3
+Walsall,3,3
+Warminster,3,3
+Watford,3,3
+West Chester,3,3
+West Sussex,3,3
+West Virginia,3,3
+Western,3,3
+Western Australia,3,3
+Weston,3,3
+Weston-Super-Mare,3,3
+Wigan,3,3
+Wiltshire,3,3
+Woods Hole,3,3
+Worldwide,3,3
+Wuppertal,3,3
+Würzburg,3,3
+Yakima,3,3
+Yemen,3,3
+Zimbabwe,3,3
+Санкт-Петербург,3,3
+.,2,2
+.cn,2,2
+Aarau,2,2
+Aberdeenshire,2,2
+Abingdon,2,2
+Accra,2,2
+Addison,2,2
+Afghanistan,2,2
+Africa,2,2
+Agoura Hills,2,2
+Ajax,2,2
+Al Qibabat,2,2
+Alicante,2,2
+Altoona,2,2
+Amarillo,2,2
+Amstelveen,2,2
+Ancona,2,2
+Andorra,2,2
+Antananarivo,2,2
+Antwerpen,2,2
+anywhere,2,2
+AR,2,2
+Arcata,2,2
+Arhus,2,2
+Arlington Heights,2,2
+Asbury Park,2,2
+Ashford,2,2
+Asker,2,2
+Askim,2,2
+Attleboro,2,2
+Autonomous City of Buenos Aires,2,2
+Bahía Blanca,2,2
+Baldwinsville,2,2
+Ballarat,2,2
+Ballwin,2,2
+Banglore,2,2
+Barrie,2,2
+Barrington,2,2
+Bartlett,2,2
+Basel-City,2,2
+Batangas City,2,2
+Beacon,2,2
+Beaumont,2,2
+Bel Air,2,2
+Belize City,2,2
+Belo Horizonte - State of Minas Gerais,2,2
+Beloit,2,2
+Benton,2,2
+Bentonville,2,2
+Berea,2,2
+Berkshire,2,2
+Berlín,2,2
+Bethlehem,2,2
+Bhubaneswar,2,2
+Biella,2,2
+Bielsko-Biala,2,2
+Billerica,2,2
+Blue Springs,2,2
+Bolivar,2,2
+Boone,2,2
+Bowling Green,2,2
+Bowmanville,2,2
+Brampton,2,2
+Brantford,2,2
+Brattleboro,2,2
+Braunschweig,2,2
+Brea,2,2
+Bremerton,2,2
+Brest,2,2
+Bridgwater,2,2
+Brisbane City,2,2
+Brisbane QLD,2,2
+Bryan,2,2
+Bryn Mawr,2,2
+Bucaramanga,2,2
+Bucks County,2,2
+Buffalo Grove,2,2
+Burnsville,2,2
+Bushey,2,2
+Butler,2,2
+Cairns,2,2
+Cairo Egypt,2,2
+Calabarzon,2,2
+Camberley,2,2
+Cape Coral,2,2
+Cape Elizabeth,2,2
+Carinthia,2,2
+Carol Stream,2,2
+Carson City,2,2
+Casper,2,2
+Catania,2,2
+Cave Creek,2,2
+Cayman Islands,2,2
+Cedar Falls,2,2
+Celebration,2,2
+Celje,2,2
+Centerville,2,2
+Central,2,2
+Central Point,2,2
+Cesena,2,2
+Ceske Budejovice,2,2
+Chambéry,2,2
+Channel Islands,2,2
+Chard,2,2
+Chelmsford,2,2
+Cheyenne,2,2
+Chiang Mai,2,2
+City of London,2,2
+Claremont,2,2
+Clovis,2,2
+Cochabamba,2,2
+Coeur D'Alene,2,2
+Coffs Harbour,2,2
+Compton,2,2
+Conshohocken,2,2
+Conwy,2,2
+Conyers,2,2
+Coppell,2,2
+Coquitlam,2,2
+Cornwall,2,2
+Costa Mesa,2,2
+Craiova,2,2
+Cranston,2,2
+Cuba,2,2
+Cuenca,2,2
+Cumming,2,2
+Curaçao,2,2
+Czechia,2,2
+Dacula,2,2
+Dakar,2,2
+Dalian,2,2
+Dammam,2,2
+Dartmouth,2,2
+Davao City,2,2
+Davie,2,2
+DC,2,2
+Dell Rapids,2,2
+Den Bosch,2,2
+Den Haag,2,2
+Denpasar,2,2
+Destin,2,2
+Dexter,2,2
+DFW,2,2
+Didcot,2,2
+Digital Nomad,2,2
+Dixon,2,2
+Donostia-San Sebastian,2,2
+Dordrecht,2,2
+Dornbirn,2,2
+Dorset,2,2
+Drammen,2,2
+Draper,2,2
+Dripping Springs,2,2
+Dumfries,2,2
+Dunnellon,2,2
+Duvall,2,2
+Easley,2,2
+East Bay,2,2
+East Hartford,2,2
+East Palo Alto,2,2
+Eau Claire,2,2
+El Segundo,2,2
+Elgin,2,2
+Ely,2,2
+Endicott,2,2
+Englewood,2,2
+Eskilstuna,2,2
+Eskişehir,2,2
+EU,2,2
+European Union,2,2
+Fairbanks,2,2
+Fairburn,2,2
+Fairport,2,2
+Farmingdale,2,2
+Farnborough,2,2
+Fernandina Beach,2,2
+Florianópolis - State of Santa Catarina,2,2
+Flower Mound,2,2
+Fort Mill,2,2
+Fort Smith,2,2
+Fortaleza,2,2
+Fountain Valley,2,2
+Frome,2,2
+Front Royal,2,2
+Galati,2,2
+Gallatin,2,2
+Galloway,2,2
+Galveston,2,2
+Garibaldi,2,2
+Gateshead,2,2
+Gent,2,2
+Ghana,2,2
+Gig Harbor,2,2
+Gilroy,2,2
+Girona,2,2
+Gladsaxe,2,2
+Glasgow City,2,2
+Glastonbury,2,2
+Glen Allen,2,2
+Glen Burnie,2,2
+Global,2,2
+Godalming,2,2
+Golden,2,2
+Gouda,2,2
+Grand Haven,2,2
+Grantham,2,2
+Grass Valley,2,2
+Great Malvern,2,2
+Greenbelt,2,2
+Greenfield,2,2
+Greer,2,2
+Grimsby,2,2
+Grimstad,2,2
+Guayaquil,2,2
+Hadley,2,2
+Hatboro,2,2
+Havana,2,2
+Henderson,2,2
+Hengelo,2,2
+Hereford,2,2
+Herent,2,2
+Hickory,2,2
+Highland Park,2,2
+Hillsborough,2,2
+Hilo,2,2
+Holliston,2,2
+Holmdel,2,2
+Holt,2,2
+Holywood,2,2
+Home,2,2
+Honduras,2,2
+Horst,2,2
+Houghton,2,2
+Howell,2,2
+Huesca,2,2
+Huntingdon,2,2
+Hyde Park,2,2
+Indianola,2,2
+Irwin,2,2
+İstanbul,2,2
+Jamaica Plain,2,2
+Jeddah,2,2
+Jefferson City,2,2
+Jeffersonville,2,2
+Jenkintown,2,2
+Jersey,2,2
+Johns Creek,2,2
+Juiz de Fora,2,2
+Juneau,2,2
+Jupiter,2,2
+Jyvaskyla,2,2
+Kailua,2,2
+Kaiserslautern,2,2
+Kakinada,2,2
+Kama-shi,2,2
+Keene,2,2
+Keller,2,2
+Kennewick,2,2
+Kerpen,2,2
+Kharkov,2,2
+Kidderminster,2,2
+King of Prussia,2,2
+Köln,2,2
+Konstanz,2,2
+Kortrijk,2,2
+Kozhikode,2,2
+Krasnodar,2,2
+Krasnoyarsk,2,2
+Kreuzlingen,2,2
+Kristiansund,2,2
+Kumasi,2,2
+Kyoto,2,2
+Kyoto-shi,2,2
+Kyrgyzstan,2,2
+La Rochelle,2,2
+Lafayette Hill,2,2
+Lake Oswego,2,2
+Lake Worth,2,2
+Lakebay,2,2
+Landshut,2,2
+Langley,2,2
+L'Aquila,2,2
+Largo,2,2
+Layton,2,2
+Le Mans,2,2
+Leamington,2,2
+Leander,2,2
+Leicestershire,2,2
+Leighton Buzzard,2,2
+Leiria,2,2
+Levittown,2,2
+Lewiston,2,2
+Lewisville,2,2
+Limbo,2,2
+Lisboa,2,2
+Lisle,2,2
+Lititz,2,2
+Livingston,2,2
+Łódź,2,2
+Logan,2,2
+London(ish),2,2
+Londrina,2,2
+Lucerne,2,2
+Lugano,2,2
+Lynnwood,2,2
+MacClesfield,2,2
+Macon,2,2
+Madagascar,2,2
+Magenta,2,2
+Maharashtra,2,2
+Malaga,2,2
+Malang,2,2
+Maldonado,2,2
+Male,2,2
+Malmo,2,2
+Malthan,2,2
+Mammoth Lakes,2,2
+Mandan,2,2
+Manteca,2,2
+Maple Valley,2,2
+Mars,2,2
+Martigny,2,2
+Marysville,2,2
+Mashhad,2,2
+Mason,2,2
+Mauritius,2,2
+Maynooth,2,2
+McAllen,2,2
+Media,2,2
+Medicine Hat,2,2
+Melbourne Australia,2,2
+Melrose,2,2
+Melton Mowbray,2,2
+Mentor,2,2
+Merrimack,2,2
+Mexicali,2,2
+Middle Earth,2,2
+Middlesex,2,2
+Midland,2,2
+Midlothian,2,2
+Midwest,2,2
+Milky Way,2,2
+Mission Viejo,2,2
+Mitchell,2,2
+Modesto,2,2
+Monaco,2,2
+Montrose,2,2
+Monument,2,2
+Mooresville,2,2
+Moraga,2,2
+Morocco,2,2
+Mount Airy,2,2
+Mpls,2,2
+Mt Pleasant,2,2
+Mt Vernon,2,2
+Mulhouse,2,2
+Murcia,2,2
+Murray,2,2
+Myanmar,2,2
+Mykolayiv,2,2
+N. Ireland,2,2
+Nå,2,2
+Naga City,2,2
+Nampa,2,2
+Napa,2,2
+Nashik,2,2
+NE UK,2,2
+Nederland,2,2
+Neu-Ulm,2,2
+Nevada,2,2
+New Albany,2,2
+New Bedford,2,2
+New Braunfels,2,2
+New Castle,2,2
+New London,2,2
+New Paltz,2,2
+New Plymouth,2,2
+New Port Richey,2,2
+New Rochelle,2,2
+Newfoundland,2,2
+Newnan,2,2
+Newton-Le-Willows,2,2
+Niagara Falls,2,2
+Ningbo,2,2
+Nish,2,2
+Noblesville,2,2
+Nomad,2,2
+NorCal,2,2
+Normal,2,2
+Norrköping,2,2
+North East Lincolnshire,2,2
+Northern,2,2
+Northwest,2,2
+Nova Gorica,2,2
+Novato,2,2
+Nuneaton,2,2
+Oberhausen,2,2
+Oceania,2,2
+Odense C,2,2
+Odenton,2,2
+Ofallon,2,2
+O'Fallon,2,2
+Old Forge,2,2
+Olten,2,2
+Osaka,2,2
+Ossining,2,2
+Ostrava,2,2
+Pacific NW,2,2
+pale blue dot,2,2
+Palm Bay,2,2
+Palm Beach,2,2
+Palm Harbor,2,2
+Parkland,2,2
+Parma,2,2
+Parsons,2,2
+Parts Unknown,2,2
+Passau,2,2
+Pau,2,2
+Pembroke Pines,2,2
+Penang,2,2
+Pernambuco,2,2
+Persia,2,2
+Piedmont,2,2
+Pittsford,2,2
+Pleasant Hill,2,2
+Pleasant Valley,2,2
+Pomona,2,2
+Porsgrunn,2,2
+Port Angeles,2,2
+Port Orchard,2,2
+Porto Velho,2,2
+Post Falls,2,2
+Prague 1,2,2
+Prairie Village,2,2
+Pristina,2,2
+Prosper,2,2
+Puebla,2,2
+Punjab,2,2
+Queenstown,2,2
+Quilmes,2,2
+Quincy,2,2
+Quito,2,2
+Racine,2,2
+Rajkot,2,2
+Randers,2,2
+Red Hook,2,2
+Redding,2,2
+Redford,2,2
+Redhill,2,2
+Reggio nell'Emilia,2,2
+Reims,2,2
+Remote,2,2
+Rescue,2,2
+Resistencia,2,2
+Reunion,2,2
+Rīga,2,2
+Rimini,2,2
+Rio Grande do Sul,2,2
+Rishon LeZion,2,2
+Rochester Hills,2,2
+Rockford,2,2
+Rolla,2,2
+Roscoe,2,2
+Rostock,2,2
+Rotherham,2,2
+Roubaix,2,2
+Royal Leamington Spa,2,2
+Rugby,2,2
+Rugeley,2,2
+Ruse,2,2
+Rzeszow,2,2
+Saarbrücken,2,2
+Sabadell,2,2
+Saginaw,2,2
+Saint-Petersburg,2,2
+Salisbury,2,2
+Saltillo,2,2
+Samara,2,2
+San Clemente,2,2
+San Francisco Bay,2,2
+San Juan Capistrano,2,2
+San Leandro,2,2
+San Tan Valley,2,2
+San'a,2,2
+Sandefjord,2,2
+Sandnes,2,2
+Sandpoint,2,2
+Santa Cruz de la Sierra,2,2
+Santa Maria,2,2
+Santee,2,2
+Santiago de Compostela,2,2
+Santiago Del Estero,2,2
+Sao Carlos,2,2
+São José,2,2
+Sault Ste Marie,2,2
+Savage,2,2
+Scarborough,2,2
+Schiedam,2,2
+Schwielowsee,2,2
+SE USA,2,2
+Seagrove,2,2
+Sebastopol,2,2
+Selangor,2,2
+Sevastopol,2,2
+Sevenoaks,2,2
+Sevierville,2,2
+Shafter,2,2
+Shakopee,2,2
+Shelton,2,2
+Shoreview,2,2
+Silkeborg,2,2
+Simi Valley,2,2
+Sioux City,2,2
+Skåne,2,2
+Skien,2,2
+Skipton,2,2
+SLC,2,2
+Smolensk,2,2
+Smyrna,2,2
+Sochi,2,2
+Sonoma,2,2
+Sophia Antipolis,2,2
+Soquel,2,2
+Sorocaba,2,2
+Sosnowiec,2,2
+South Elgin,2,2
+South Florida,2,2
+South Tyrol,2,2
+South West,2,2
+Southborough,2,2
+Southsea,2,2
+Squamish,2,2
+St Augustine,2,2
+St Cloud,2,2
+St. Andrews,2,2
+St. Augustine,2,2
+Staines,2,2
+Statesboro,2,2
+Steyr,2,2
+Stockton-on-Tees,2,2
+Strongsville,2,2
+Stroud,2,2
+Styria,2,2
+Sugar Land,2,2
+Summerville,2,2
+Sunshine Coast,2,2
+Surat,2,2
+Surprise,2,2
+Taganrog,2,2
+Taguig,2,2
+Tallmadge,2,2
+Tandil,2,2
+Tel Aviv District,2,2
+The Woodlands,2,2
+Thornbury,2,2
+Thornhill,2,2
+Tiraspol,2,2
+Tonbridge,2,2
+Toronto Canada,2,2
+Toulon,2,2
+Townsville,2,2
+Traverse City,2,2
+Truro,2,2
+Türkiye,2,2
+Tustin,2,2
+Tuzla,2,2
+Twickenham,2,2
+TX,2,2
+Tyngsboro,2,2
+Tyrol,2,2
+Uberlândia,2,2
+Uden,2,2
+Umea,2,2
+Un,2,2
+Upstate,2,2
+Vail,2,2
+Valladolid,2,2
+Vallentuna,2,2
+Vanda,2,2
+Vantaa,2,2
+Vicksburg,2,2
+Victoriaville,2,2
+Việt Nam,2,2
+Vinnytsya,2,2
+Visakhapatnam,2,2
+Visalia,2,2
+Vista,2,2
+Vitoria,2,2
+Vleuten,2,2
+Wageningen,2,2
+Wallingford,2,2
+Warner Robins,2,2
+Warren,2,2
+Washington D.C.,2,2
+Wateringen,2,2
+Wellesley,2,2
+Wels,2,2
+Wenatchee,2,2
+West,2,2
+West Coast,2,2
+West Covina,2,2
+West Hollywood,2,2
+West Union,2,2
+Westerville,2,2
+Westford,2,2
+Wexford,2,2
+Whangarei,2,2
+Wheaton,2,2
+Whitby,2,2
+White Bear Lake,2,2
+White Rock,2,2
+Whitehorse,2,2
+Whittier,2,2
+Wien,2,2
+Willmar,2,2
+Wilmette,2,2
+Wilsonville,2,2
+Windermere,2,2
+Winona,2,2
+Winter Garden,2,2
+Winterthur,2,2
+Witten,2,2
+Woburn,2,2
+Wokingham,2,2
+Wolverhampton,2,2
+Woodbury,2,2
+Woodland,2,2
+Woodridge,2,2
+Wuhan,2,2
+Wyoming,2,2
+Yellowknife,2,2
+Yokohama-shi,2,2
+Yokosuka-shi,2,2
+Yukon Territory,2,2
+Zaandam,2,2
+Zabrze,2,2
+Zeeland,2,2
+Zelenograd,2,2
+Zielona Góra,2,2
+Zoetermeer,2,2
+Zug,2,2
+Zülpich,2,2
+Aach,1,1
+Aachener Straße,1,1
+Abbekerk,1,1
+Abergavenny,1,1
+Abersychan,1,1
+Accrington,1,1
+Achères,1,1
+Achern,1,1
+Acworth,1,1
+Ada,1,1
+Adamsville,1,1
+Adliswil,1,1
+Adoor,1,1
+Adrian,1,1
+Aertrycke,1,1
+Åfjord,1,1
+Agra,1,1
+Aguascalientes,1,1
+Ahaus,1,1
+Ahmendabad,1,1
+Ahoskie,1,1
+Aichach,1,1
+Aiken,1,1
+Aire-la-Ville,1,1
+Aix-les-Bains,1,1
+Ajab,1,1
+AK,1,1
+Akersberga,1,1
+Akershus Fylke,1,1
+Akron OH,1,1
+Al Ain,1,1
+Albacete,1,1
+Albania,1,1
+Albemarle,1,1
+Albertville,1,1
+Alburtis,1,1
+Albury,1,1
+Aldershot,1,1
+Aledo,1,1
+Alessandria,1,1
+Alexandria VA,1,1
+Alfreton,1,1
+Algoma,1,1
+Alhambra,1,1
+Alhaurín el Grande,1,1
+Alice,1,1
+Alice Springs,1,1
+All over the world.,1,1
+Allegan,1,1
+Allerød,1,1
+Allgäu,1,1
+Alma,1,1
+Alps Switzerland,1,1
+Alsace,1,1
+Altenburg,1,1
+Altrincham,1,1
+Altstätten,1,1
+Amana,1,1
+Ambler,1,1
+America,1,1
+American Samoa,1,1
+Americana,1,1
+Americus,1,1
+Amneville,1,1
+Amsterdam area,1,1
+Anand,1,1
+An'arctica,1,1
+Anderson,1,1
+Andhra,1,1
+Andøy,1,1
+Angers,1,1
+Angleton,1,1
+Angoulême,1,1
+Angwin,1,1
+Anhui,1,1
+Annecy,1,1
+Antalya,1,1
+Antarctica,1,1
+Antibes,1,1
+Antigua and Barbuda,1,1
+Antioch,1,1
+Anytown,1,1
+Appalachia,1,1
+Aprilia,1,1
+Aptos,1,1
+Aquitaine,1,1
+Arabi,1,1
+Arak,1,1
+Arangala,1,1
+Araraquara,1,1
+Arcadia,1,1
+Ardmore,1,1
+Arendal,1,1
+Arezzo,1,1
+Armacao Dos Buzios,1,1
+Armação dos Búzios,1,1
+Armstrong,1,1
+Arnprior,1,1
+Aromas,1,1
+Arona,1,1
+Around,1,1
+Arrington,1,1
+asdasda,1,1
+Asenovgrad,1,1
+Ashby,1,1
+Asheboro,1,1
+Ashtabula,1,1
+Asia (remote),1,1
+Asia Pasific,1,1
+Asperen,1,1
+Aspinwall,1,1
+Assen,1,1
+Astana,1,1
+Asturias,1,1
+Asuka-mura,1,1
+Asunción,1,1
+Atherstone,1,1
+Athlone,1,1
+Atlantic Beach,1,1
+Atlantis,1,1
+Atlit,1,1
+Auckland New Zealand,1,1
+Aurangabad,1,1
+Australia / New Zealand,1,1
+Australian Capital Territory,1,1
+Avondale,1,1
+Awkward,1,1
+Aylmer,1,1
+AZ,1,1
+Azerbaijan,1,1
+Aztec,1,1
+Azusa,1,1
+B,1,1
+Babylon,1,1
+Badhoevedorp,1,1
+Bagsværd,1,1
+Bahawalpur,1,1
+Baia Mare,1,1
+Bakırköy,1,1
+Bala-Cynwyd,1,1
+Balearic Islands,1,1
+Balingen,1,1
+Balitmore,1,1
+Ballston Spa,1,1
+Ballydehob,1,1
+Balneario Camboriu,1,1
+Baltimore MD,1,1
+Banaras,1,1
+Bandar Seri Begawan,1,1
+Bandhagen,1,1
+Bandon,1,1
+Banff,1,1
+Banyoles,1,1
+Bar Harbor,1,1
+Baraboo,1,1
+Barbados,1,1
+Barcelone,1,1
+Bariloche,1,1
+Baring,1,1
+Barking,1,1
+Barneveld,1,1
+Barnstaple,1,1
+Barquisimeto,1,1
+Barranquilla,1,1
+Barsinghausen,1,1
+Bartlesville,1,1
+Bartow,1,1
+Barueri,1,1
+Basking Ridge,1,1
+Bathinda,1,1
+Bathurst,1,1
+Battle,1,1
+Battle Creek,1,1
+Battle Ground,1,1
+Bay Area / Rhode Island,1,1
+Bay Minette,1,1
+Bayonne,1,1
+Bayport,1,1
+Baytown,1,1
+BCN,1,1
+BE,1,1
+Beaconsfield,1,1
+Beauceville,1,1
+Beaver Dam,1,1
+Beckenham,1,1
+Beckley,1,1
+Bedminster,1,1
+Bedum,1,1
+Beech Grove,1,1
+Beerse,1,1
+Behind you,1,1
+Belem,1,1
+België,1,1
+Belgioioso,1,1
+Belgium / Germany,1,1
+Belgorod,1,1
+Belgrano,1,1
+Belize,1,1
+Bellevue WA,1,1
+Belton,1,1
+Bemmel,1,1
+Bendigo,1,1
+Benissa,1,1
+Bennington,1,1
+Bensheim,1,1
+Benson,1,1
+Benton Harbor,1,1
+Berkhamsted,1,1
+Berkshire United Kingdom,1,1
+Berlaar,1,1
+Berliini,1,1
+Berlim,1,1
+Berlin-Mitte,1,1
+Berrien Springs,1,1
+Berwick-upon-Tweed,1,1
+Besançon,1,1
+Bethel Park,1,1
+Beverly,1,1
+Bexley,1,1
+Bharuch,1,1
+Bhatgaon,1,1
+Bhopal,1,1
+Biarritz,1,1
+Biatorbágy,1,1
+Bicester,1,1
+Biel Bienne,1,1
+Biggleswade,1,1
+Billinge,1,1
+Billingshurst,1,1
+Biloxi,1,1
+Bilthoven,1,1
+Bingen am Rhein,1,1
+Binghamton,1,1
+Bingley,1,1
+Birch Tree,1,1
+Birkenhead,1,1
+Birmingham Twp,1,1
+Birr,1,1
+Bishop,1,1
+Bishop's Stortford,1,1
+Bitola,1,1
+BJ,1,1
+Bjärred,1,1
+Bjelovar,1,1
+Blackpool,1,1
+Blairsden-Graeagle,1,1
+Blankenberge,1,1
+blankville,1,1
+Blighty,1,1
+Blonay,1,1
+Bloomingdale,1,1
+Blue Ash,1,1
+Blytheville,1,1
+Bø,1,1
+Boa Vista,1,1
+Boalsburg,1,1
+Bodo,1,1
+Boecillo,1,1
+Boerne,1,1
+Bohinjska Bistrica,1,1
+Bois-d'Arcy,1,1
+Boldești-Scăeni,1,1
+Bolingbrook,1,1
+Bolzano,1,1
+Boonton,1,1
+Borås,1,1
+Bordentown,1,1
+Bordj Bou Arreridj,1,1
+Boskovice,1,1
+Boston (MA),1,1
+Boston MA,1,1
+Boston-ish,1,1
+Botevgrad,1,1
+Bottrop,1,1
+Bougy-Villars,1,1
+Boulder CO,1,1
+Boulogne-Billancourt,1,1
+Bowral,1,1
+Boyce,1,1
+Boyertown,1,1
+Bracebridge,1,1
+Bracknell,1,1
+Braine-l'Alleud,1,1
+Brainerd,1,1
+Brandenburg,1,1
+Braselton,1,1
+Brasília - Federal District,1,1
+Brașov,1,1
+Brasschaat,1,1
+Braunau Am Inn,1,1
+Breaux Bridge,1,1
+Breckenridge,1,1
+Brecksville,1,1
+Breinigsville,1,1
+Bremerhaven,1,1
+Brescia,1,1
+Brevard,1,1
+Bridgeport,1,1
+Bridgewater,1,1
+Brisbane City QLD,1,1
+British Columbia Canada,1,1
+Brittany,1,1
+Broadview Heights,1,1
+Broager,1,1
+Brockhampton,1,1
+Brockville,1,1
+Brodheadsville,1,1
+Broken Arrow,1,1
+Bromsgrove,1,1
+Brøndbyøster,1,1
+Brønderslev,1,1
+Bronx,1,1
+Brookline,1,1
+Brossard,1,1
+Brownsburg,1,1
+Brühl,1,1
+Brunei,1,1
+Bruxelles,1,1
+Bryne,1,1
+Brynsiencyn,1,1
+Bucharest Romania,1,1
+Budaörs,1,1
+Budweis,1,1
+Buellton,1,1
+Buenos Aires City,1,1
+Buford,1,1
+Bulle,1,1
+Bundang-gu,1,1
+Bundesland Berlin,1,1
+Bunkeflostrand,1,1
+Burke,1,1
+Burleson,1,1
+Burnley,1,1
+Burns,1,1
+Burton upon Trent,1,1
+Bury St. Edmunds,1,1
+Buxton,1,1
+Bydgoszcz,1,1
+Byron Bay,1,1
+CABA,1,1
+Cabot,1,1
+Čačak,1,1
+Caen,1,1
+Caerdydd,1,1
+Caerphilly,1,1
+Caister-on-Sea,1,1
+Cal,1,1
+Calamba,1,1
+Caldwell,1,1
+Cali,1,1
+Calicut,1,1
+California or Oregon,1,1
+California or somewhere,1,1
+California Twp,1,1
+California/Oregon,1,1
+Calvin,1,1
+Cambrdige,1,1
+Camden,1,1
+Campbell River,1,1
+Campinas - SP,1,1
+Campinas - State of São Paulo,1,1
+Campo Grande - Mato Grosso do Sul,1,1
+Campo Grande - MS,1,1
+Campus,1,1
+Can Tho,1,1
+Canada - Russia,1,1
+Canada / Austria / Ukraine,1,1
+Canada. Please don't stalk me.,1,1
+Canal Winchester,1,1
+Canandaigua,1,1
+Canberra Australia,1,1
+Cancun,1,1
+Cancún,1,1
+Canea,1,1
+Canmore,1,1
+Cannock,1,1
+Canoga Park,1,1
+Cantaloupe Island,1,1
+Cap Fed,1,1
+Cape Canaveral,1,1
+Cape Cod,1,1
+Capitola,1,1
+Caracas Venezuela,1,1
+Carcarañá,1,1
+Caribbean,1,1
+Cartagena,1,1
+Cartaxo,1,1
+Caruthers,1,1
+Cary / Raleigh,1,1
+Casablanca,1,1
+Cascadia,1,1
+Cascais,1,1
+Cascavel,1,1
+Castel Maggiore,1,1
+Castle Hills,1,1
+Catasauqua,1,1
+Cedar Hill,1,1
+Cedar Lake,1,1
+Celina,1,1
+Centerton,1,1
+Central Illinois,1,1
+Central Mexico,1,1
+Central New York,1,1
+Central Ohio,1,1
+Central Oregon,1,1
+Cern,1,1
+Cerro Del Marques,1,1
+Český Krumlov,1,1
+Chagrin Falls,1,1
+Chakwal,1,1
+Chalmette,1,1
+Chambersburg,1,1
+Chambly,1,1
+Chamonix-Mont-Blanc,1,1
+Chanhassen,1,1
+Chania,1,1
+Charleroi,1,1
+charleston sc,1,1
+Chaska,1,1
+Châteauroux,1,1
+Chatham-Kent ON,1,1
+Chaville,1,1
+Cheadle,1,1
+Cheboksary,1,1
+Cheddar,1,1
+Chelsea,1,1
+Chemung,1,1
+Cheney,1,1
+Chengdu Shi,1,1
+Cherepovets,1,1
+Chernivtsi,1,1
+Chernivtsy,1,1
+Cherry Hill,1,1
+Chervonograd,1,1
+Chesaning,1,1
+Chesapeake Beach,1,1
+Chesham,1,1
+Cheshire,1,1
+Chester Springs,1,1
+Chevy Chase,1,1
+Chicago (West Suburbs),1,1
+Chicago area,1,1
+Chicago IL,1,1
+Chicoutimi,1,1
+Chihuahua,1,1
+Chikusei-shi,1,1
+Chillicothe,1,1
+Chino,1,1
+Chino Hills,1,1
+Chippenham,1,1
+Chipping Norton,1,1
+Chişinău,1,1
+Chișinău,1,1
+Chittagong,1,1
+Choctaw,1,1
+Chongqing,1,1
+Church Fenton,1,1
+Chwaszczyno,1,1
+Circleville,1,1
+Cirencester,1,1
+Ciudad Juarez,1,1
+Ciudad Real,1,1
+Clarissa,1,1
+Clarksburg,1,1
+Clarkston,1,1
+Clay,1,1
+Clayton,1,1
+Cleckheaton,1,1
+Cleveland Heights,1,1
+Clifton,1,1
+Clifton Park Center,1,1
+Clinton,1,1
+Clinton Twp,1,1
+Clio,1,1
+Clive,1,1
+Clover,1,1
+CLR,1,1
+Clymer,1,1
+Coblenz,1,1
+Cobourg,1,1
+Cockeysville,1,1
+Cody,1,1
+Cold Spring,1,1
+Colington,1,1
+Collingwood,1,1
+Colmenar Viejo,1,1
+Colne,1,1
+Colorado Springs | Minneapolis | Grand Marais,1,1
+Colroado,1,1
+Columbia Falls,1,1
+Columbus OH,1,1
+Commack,1,1
+Commercial Area,1,1
+Compiegne,1,1
+Computer,1,1
+Concepción del Uruguay,1,1
+Condon,1,1
+Congleton,1,1
+Conifer,1,1
+Conroe,1,1
+Consett,1,1
+Constanța,1,1
+Continental Europe,1,1
+Copley,1,1
+Coppell Texas,1,1
+Coral Gables,1,1
+Coraopolis,1,1
+Corazón de Jesús,1,1
+Corbett,1,1
+Córdoba,1,1
+Cornelius,1,1
+Coronado,1,1
+Corrales,1,1
+Corydon,1,1
+Cosmos,1,1
+Cottingham,1,1
+Cottonwood Heights,1,1
+Coudersport,1,1
+Covington,1,1
+Cowes,1,1
+Craigavon,1,1
+Cranberry,1,1
+Cranberry Township,1,1
+Cranford,1,1
+Creil,1,1
+Crested Butte,1,1
+Crevoladossola,1,1
+Crimea,1,1
+Crofton,1,1
+Croton on Hudson,1,1
+Crowborough,1,1
+Crozet,1,1
+Crystal,1,1
+Crystal Lake,1,1
+Crystal River,1,1
+CS,1,1
+Cudahy,1,1
+Cuiaba,1,1
+Cuiabá - State of Mato Grosso,1,1
+Culiacan,1,1
+Cumberland,1,1
+Cumbria,1,1
+Curacao,1,1
+Curaçao Netherlands Antilles,1,1
+Custom Spacecraft,1,1
+Cuttack,1,1
+Cuyahoga Falls,1,1
+Cyber Space,1,1
+Cyberdonia,1,1
+cyberjaya,1,1
+Cynthiana,1,1
+Cypress,1,1
+Dale,1,1
+Dalgety Bay,1,1
+Dallas/Fort Worth area,1,1
+Daly City,1,1
+Daniel Boone country,1,1
+Danville,1,1
+Dartford,1,1
+Daugavpils,1,1
+Daventry,1,1
+Davidson,1,1
+Daytona Beach,1,1
+"DC ""Area""",1,1
+DC Metro Area,1,1
+DC-Baltimore Area,1,1
+De,1,1
+Dearborn,1,1
+Decimomannu,1,1
+Decin,1,1
+Decorah,1,1
+Deep River,1,1
+deep space,1,1
+Dehli,1,1
+Dehradun,1,1
+Dekalb,1,1
+Del Mar,1,1
+Delfgauw,1,1
+Delta,1,1
+Den Helder,1,1
+Denpasar City,1,1
+Denville,1,1
+Derwood,1,1
+Detroit Metro,1,1
+Detva,1,1
+Deutschladn,1,1
+Deutschland,1,1
+Developer,1,1
+Deventer,1,1
+Devonport,1,1
+Dharmapuri,1,1
+Dhenkanal,1,1
+Dhuy,1,1
+Diamond Bar,1,1
+Dickinson,1,1
+Dijon,1,1
+Dillsburg,1,1
+Diss,1,1
+District of Columbia area,1,1
+Dnepropetrovsk,1,1
+Dnipro,1,1
+Dob,1,1
+Doncaster,1,1
+Donets'k,1,1
+Dorchester,1,1
+Douala,1,1
+Douglas,1,1
+Downers Grove,1,1
+Downey,1,1
+Downtown Burbank,1,1
+Dracut,1,1
+Dreher Twp,1,1
+Drenthe,1,1
+Driebergen,1,1
+Drnis,1,1
+Drogheda,1,1
+Droitwich,1,1
+Drummondville,1,1
+Dubai - Forenede Arabiske Emirater,1,1
+Dubai Silicon Oasis - Dubai - United Arab Emirates,1,1
+Dublino,1,1
+Duchy of Grand Fenwick,1,1
+Duesseldorf,1,1
+Dumaguete City,1,1
+Dundas,1,1
+Dunstable,1,1
+Dunwoody,1,1
+Durango,1,1
+Durban - South Africa,1,1
+Dursley,1,1
+Eagle,1,1
+Eakring,1,1
+Eardisley,1,1
+Earth Planet,1,1
+East & West,1,1
+East Berlin,1,1
+East Brunswick,1,1
+East Coast,1,1
+East cost of US and Bahamas,1,1
+East Dereham,1,1
+East Freetown,1,1
+East Haven,1,1
+East Huntingdon Twp,1,1
+East Kilbride,1,1
+East Peoria,1,1
+East Poland,1,1
+East Preston,1,1
+East St Louis,1,1
+East St. Louis,1,1
+East Stroudsburg,1,1
+East TN,1,1
+Eastbourne,1,1
+Eastern Europe,1,1
+Eastern United States,1,1
+Eastern Washington,1,1
+Easthampton,1,1
+Eastover,1,1
+Eastport,1,1
+Eddington,1,1
+Eden,1,1
+Edinburg,1,1
+Egersund,1,1
+Eglin AFB,1,1
+Eglinton,1,1
+Egypt & Saudi Arabia,1,1
+Eichenzell,1,1
+Einbeck,1,1
+Eivissa,1,1
+El Cerrito,1,1
+El Dorado Hills,1,1
+El Puerto De Santa Maria,1,1
+El Salvador,1,1
+El Salvador / Canada,1,1
+Elblag,1,1
+Eliot,1,1
+Elizabeth City,1,1
+Elizabethtown,1,1
+Elk Grove Village,1,1
+Elk Rapids,1,1
+Elkhart,1,1
+Elkridge,1,1
+Ellensburg,1,1
+Elmira,1,1
+Elmwood Park,1,1
+Elora,1,1
+Elverum,1,1
+Elyria,1,1
+Emacs / Grand Rapids,1,1
+Emmaus,1,1
+Emmen,1,1
+Emmes,1,1
+Emmett,1,1
+Empelde,1,1
+Encarnación,1,1
+Enderby,1,1
+Enfield,1,1
+Ennis,1,1
+Ensenada,1,1
+Ephrata,1,1
+Érd,1,1
+Erftstadt,1,1
+Erfurt,1,1
+Ericsson AB,1,1
+Erlensee,1,1
+Erpe,1,1
+Escondido,1,1
+Escuminac,1,1
+España,1,1
+Esslingen,1,1
+Esslingen am Neckar,1,1
+Este,1,1
+Estevan,1,1
+Esztergom,1,1
+Ether,1,1
+Etowah,1,1
+Etten-Leur,1,1
+Etterbeek,1,1
+Euless,1,1
+Eureka,1,1
+Europe & Asia,1,1
+Europe (all of it... I'm really fat),1,1
+Eustis,1,1
+Evans Mills,1,1
+Evergreen Park,1,1
+Exmouth,1,1
+Fair Lawn,1,1
+Fair Oaks,1,1
+Fairford,1,1
+Fairlie,1,1
+Fairview Park,1,1
+Fairway,1,1
+Faison,1,1
+Falconara Marittima,1,1
+Falkirk,1,1
+Fall Creek,1,1
+Fall River,1,1
+Fallbrook,1,1
+falling down all these questions,1,1
+Falmouth,1,1
+Fălticeni,1,1
+Fano,1,1
+Fanwood,1,1
+Faridabad,1,1
+Farmers Branch,1,1
+Farnham,1,1
+Farnworth,1,1
+Faversham,1,1
+Federal Way,1,1
+Feldkirch,1,1
+Ferrara,1,1
+Fielding,1,1
+Fife,1,1
+Figeac,1,1
+Fiji,1,1
+Findlay,1,1
+Finland / UK,1,1
+Firenze,1,1
+Fishing Creek,1,1
+Fitzwilliam,1,1
+FL,1,1
+Flanders,1,1
+Fleming Island,1,1
+Fletcher,1,1
+Florianopolis,1,1
+Florianópolis - SC,1,1
+Florida Keys,1,1
+Floro,1,1
+Flowery Branch,1,1
+Fonthill,1,1
+Foothill Ranch,1,1
+Forest,1,1
+Forest of Dean,1,1
+Forest Row,1,1
+Forlì,1,1
+Formigine,1,1
+Forney,1,1
+Fort Lee,1,1
+Fort Thomas,1,1
+Fort William,1,1
+Fountain,1,1
+Fountain Inn,1,1
+Foxboro,1,1
+FR,1,1
+Frameries,1,1
+Fredericktown,1,1
+Frederiksberg,1,1
+Freedom,1,1
+Freehold,1,1
+Freeport,1,1
+Freiburg im Breisgau,1,1
+Freienbach,1,1
+Freising,1,1
+Frelighsburg,1,1
+Fremantle,1,1
+Fremont CA,1,1
+French Riviera,1,1
+Frenštát pod Radhoštěm,1,1
+From New Zealand,1,1
+From up there. Now down here.,1,1
+Fröndenberg,1,1
+Frösö,1,1
+Fruitland,1,1
+Fruitport,1,1
+Ft. Lauderdale,1,1
+Fuengirola,1,1
+Fukui Prefecture,1,1
+Fukuoka,1,1
+Fulda,1,1
+Fullerton,1,1
+Fulton,1,1
+Funchal,1,1
+Fuquay-Varina,1,1
+Furulund,1,1
+Gahanna,1,1
+Galesburg,1,1
+Gallifrey,1,1
+Garden Valley,1,1
+Garrison,1,1
+Gäufelden,1,1
+Gävle,1,1
+Gaylord,1,1
+Gaziantep,1,1
+Gazvin,1,1
+GB,1,1
+Geel,1,1
+Geelong,1,1
+Geldrop,1,1
+Gelsenkirchen,1,1
+Gemla,1,1
+Genk,1,1
+Geosynchronous orbit,1,1
+Germany / Netherlands,1,1
+Germay,1,1
+Ghaziabad,1,1
+Giessen,1,1
+Gilbertsville,1,1
+Gillespie,1,1
+Gillett,1,1
+Gillingham,1,1
+Girdwood,1,1
+Gisors,1,1
+Gistrup,1,1
+Givat Zeev,1,1
+Giza,1,1
+Gjilan,1,1
+Gladsaxe Municipality,1,1
+Glassboro,1,1
+Glencoe,1,1
+Glendora,1,1
+Gloucestershire,1,1
+Goa,1,1
+Goiania,1,1
+Goiânia,1,1
+Gold Coast QLD,1,1
+Gold Cost,1,1
+Gold River,1,1
+Goldens Bridge,1,1
+gone,1,1
+Gonvick,1,1
+Goodlettsville,1,1
+Goose Creek,1,1
+Göppingen,1,1
+Gordonsville,1,1
+Gorinchem,1,1
+Gorleston-on-Sea,1,1
+Gorzów Wielkopolski,1,1
+Gosford,1,1
+Goshen,1,1
+Gøteborg,1,1
+Göttingen,1,1
+Gozo,1,1
+Grain Valley,1,1
+Gran,1,1
+Granby,1,1
+Grand Forks,1,1
+Grandville,1,1
+Granite Falls,1,1
+Grant,1,1
+Granville Ferry,1,1
+Grayson,1,1
+Graysville,1,1
+Great Neck,1,1
+Greater Atlanta Region,1,1
+Greater London,1,1
+Greater New York,1,1
+Greater New York area,1,1
+Greater Perthshire,1,1
+Greater Philadelphia Area,1,1
+Greater Seattle,1,1
+Greeley,1,1
+Green Cove Springs,1,1
+Greendale,1,1
+Greenland,1,1
+Greenock,1,1
+Greenville SC,1,1
+Greenwood,1,1
+Greenwood Village,1,1
+Grenada,1,1
+Gresham,1,1
+Greymouth,1,1
+Grodzisk Mazowiecki,1,1
+Grootebroek,1,1
+Guangdong,1,1
+Guaramirim - SC,1,1
+Guarapuava,1,1
+Guatemala City,1,1
+Gujranwala,1,1
+Gulf Breeze,1,1
+Gulf South,1,1
+Gulfport,1,1
+Gulleghem,1,1
+Guntersville,1,1
+Guoda,1,1
+Gurugram,1,1
+Gütersloh,1,1
+Guwahati,1,1
+Guyana,1,1
+Gwong Zau,1,1
+Hà Nội,1,1
+Haan,1,1
+Hackensack,1,1
+Haddenham,1,1
+Hadsten,1,1
+Haedo,1,1
+Hahnbach,1,1
+Hall,1,1
+Halle (Saale),1,1
+Hallein,1,1
+Haltingen,1,1
+Ham Street,1,1
+Hamamatsu-shi,1,1
+Hamlin,1,1
+Hammersmith,1,1
+Hammond,1,1
+Hammonton,1,1
+Hamont,1,1
+Hampstead,1,1
+Hampton,1,1
+Hamstreet,1,1
+Hancock,1,1
+Hanford,1,1
+Hanna,1,1
+Happy Valley,1,1
+Harare,1,1
+Harker Heights,1,1
+Harlem,1,1
+Harlow,1,1
+Härnösand,1,1
+Harpers Ferry,1,1
+Harrison,1,1
+Hartland,1,1
+Hartlepool,1,1
+Harvest,1,1
+Haslemere,1,1
+Hasselt,1,1
+Hatfield,1,1
+Hattingen,1,1
+Haugesund,1,1
+Haverford,1,1
+Havlíčkův Brod,1,1
+Hawaii Volcanoes National Park,1,1
+Hawalli,1,1
+Hawmat as Suq,1,1
+Hayden,1,1
+Haymarket,1,1
+Hay-on-Wye,1,1
+HCM,1,1
+Headcorn,1,1
+Healdsburg,1,1
+Heaven,1,1
+Heber City,1,1
+Heerenveen,1,1
+Heerlen,1,1
+Heilbronn,1,1
+Heiloo,1,1
+Heist-op-den-Berg,1,1
+Helena,1,1
+Hellas,1,1
+Hels,1,1
+Hemet,1,1
+Henley on Thames,1,1
+Heraklion,1,1
+Herceg Novi,1,1
+Hercules,1,1
+Heredia,1,1
+Herefordshire,1,1
+Herentals,1,1
+Herftordshire,1,1
+Herne,1,1
+Herning,1,1
+Herrenberg,1,1
+Herrnburg,1,1
+Herzberg,1,1
+Herzebrock,1,1
+Herzliya,1,1
+Heverlee,1,1
+Hexham,1,1
+Hickory Corners,1,1
+Hickory Hills,1,1
+High Level,1,1
+High Peak,1,1
+High River,1,1
+Highland,1,1
+Highland Lakes,1,1
+Highland Mills,1,1
+Hilbert,1,1
+Hillerod,1,1
+Hillerød,1,1
+Hinckley,1,1
+Hindoli,1,1
+Hiroshima-shi,1,1
+Hitchin,1,1
+Hixson,1,1
+HJSI,1,1
+hmm,1,1
+Ho Chi Minh,1,1
+Hobbit Hole Down South,1,1
+Hobøl,1,1
+Hockessin,1,1
+Hohenau,1,1
+Holden,1,1
+Hollow Creek,1,1
+Holmesville,1,1
+Holon,1,1
+Homestead,1,1
+Homewood,1,1
+Hood River,1,1
+Hooksett,1,1
+Hoorn,1,1
+Hordaland,1,1
+Horizontina,1,1
+Horsens,1,1
+Hortonville,1,1
+Hoschton,1,1
+Hot Springs,1,1
+Hradec Kralove,1,1
+Hudiksvall,1,1
+Huizhou,1,1
+Hullabalooza,1,1
+humanity,1,1
+Hungary : Budapest,1,1
+Hungerford,1,1
+Hunt Valley,1,1
+Huntersville,1,1
+Hurdle Mills,1,1
+Hvidovre,1,1
+Hyderbad,1,1
+Hyōgo Prefecture,1,1
+Hyper Island,1,1
+Iași,1,1
+Ibadan,1,1
+Ibiza,1,1
+Icod de Los Vinos,1,1
+Icogne,1,1
+IdF,1,1
+Idrija,1,1
+Ieper,1,1
+Ikast,1,1
+Ikoma,1,1
+Ikskile,1,1
+Ikšķile,1,1
+IL,1,1
+Ilford,1,1
+Ilkley,1,1
+Illinoise,1,1
+Illzach,1,1
+I'm lost.,1,1
+i'm with stupid,1,1
+Imola,1,1
+Imphal,1,1
+In Cigar Smoking Heaven,1,1
+In front of a screen,1,1
+In the buffers.,1,1
+In the Cloud,1,1
+in the middle of nowhere,1,1
+Independence Township,1,1
+Indore,1,1
+Inglewood,1,1
+Ingolstadt,1,1
+Inland Empire,1,1
+Inside an NSA StoreHouse,1,1
+Internet!,1,1
+Internets,1,1
+Interstellar,1,1
+Inverness,1,1
+Ioannina,1,1
+Irkutsk,1,1
+Irvington,1,1
+IS / RO,1,1
+Issy-les-Moulineaux,1,1
+Itala,1,1
+Italia,1,1
+Ivanovo,1,1
+Izegem,1,1
+Izola,1,1
+Jackson Hole,1,1
+Jacksonville Beach,1,1
+Jaén,1,1
+Jalandhar,1,1
+Jamestown,1,1
+Jamshedpur,1,1
+Japan & Australia,1,1
+Jasper,1,1
+Jaysingpur,1,1
+Jels,1,1
+Jensen Beach,1,1
+Jerash,1,1
+Jerez de la Frontera,1,1
+Jericho,1,1
+Jericho NY,1,1
+Jesenice,1,1
+jesserosenfield.com,1,1
+Jetson,1,1
+Jetzendorf,1,1
+Jiangsu,1,1
+Jilin,1,1
+Jodhpur,1,1
+Joensuu,1,1
+Johanessburg,1,1
+Johnston,1,1
+Johor Bahru Johor Malaysia,1,1
+Joiner,1,1
+Joliette,1,1
+Jonesborough,1,1
+Jonestown,1,1
+Jönköping,1,1
+Joplin,1,1
+Juan-les-Pins,1,1
+Juda,1,1
+Julian,1,1
+Jülich,1,1
+Jurbise,1,1
+Just outside Philly,1,1
+Kailua Kona,1,1
+Kaiwaka,1,1
+Kalamata,1,1
+Kalmar,1,1
+Kaluga,1,1
+Kamakura-shi,1,1
+Kamerik,1,1
+Kanagawa,1,1
+Kanagawa Prefecture,1,1
+Kandy,1,1
+Kanpur,1,1
+Kansai Region,1,1
+Kansas City Metro,1,1
+Kaohisiung,1,1
+Kappeln,1,1
+Karaganda,1,1
+Kardzhali,1,1
+Karlsbad,1,1
+Karlskoga,1,1
+Karnataka,1,1
+Katsrin,1,1
+Kävlinge,1,1
+Keerbergen,1,1
+Keizer,1,1
+Kendall Park,1,1
+Kenilworth,1,1
+Kenmore,1,1
+Kennebunk,1,1
+Kennedale,1,1
+Kennedy Space Center,1,1
+Kenner,1,1
+Kenora,1,1
+Kenton,1,1
+Keswick,1,1
+Keventry,1,1
+Kew Gardens,1,1
+Key Biscayne,1,1
+Key West,1,1
+keymasherville,1,1
+Kfar Yona,1,1
+Khon Kaen,1,1
+Kiama,1,1
+Kielce,1,1
+Kildare,1,1
+Kilkis,1,1
+Kim,1,1
+Kimball,1,1
+Kingman,1,1
+Kingsport,1,1
+Kingston Upon Thames,1,1
+Kingwood,1,1
+Kinross,1,1
+Kirkcudbright,1,1
+Kirkel,1,1
+Kirksville,1,1
+Kirovohrad,1,1
+Kiruna,1,1
+Kiryat Tiv'on,1,1
+Klaipeda,1,1
+Klamath Falls,1,1
+Klang,1,1
+Klepp,1,1
+Klijānu iela,1,1
+Knivsta,1,1
+Knowledge,1,1
+Knox,1,1
+Knysna,1,1
+Kobe,1,1
+København,1,1
+Kobe-shi,1,1
+Koblenz,1,1
+Kocaeli,1,1
+Koedijk,1,1
+Koh Samui,1,1
+Kokomo,1,1
+Kolbotn,1,1
+Kolding,1,1
+Kongsberg,1,1
+Koog aan de Zaan,1,1
+Köping,1,1
+Korsholm,1,1
+Košice,1,1
+Kota,1,1
+Kotka,1,1
+Kotzebue,1,1
+Kragujevac,1,1
+Kremsdorf,1,1
+Krk,1,1
+kroea,1,1
+Krsko,1,1
+Kuching,1,1
+Kuna,1,1
+Kungälv,1,1
+Kuopio,1,1
+Kutztown,1,1
+Kuwait City,1,1
+Kvissle,1,1
+KY,1,1
+Kyle,1,1
+L A,1,1
+LA,1,1
+La Grande,1,1
+La Línea de la Concepción,1,1
+La Lomota,1,1
+La Mesa,1,1
+La Paloma,1,1
+La Paz,1,1
+La Talaudière,1,1
+Ladson,1,1
+Lage Zwaluwe,1,1
+Laguna Beach,1,1
+Laguna Hills,1,1
+Laguna Niguel,1,1
+Lake Charles,1,1
+Lake City,1,1
+Lake Como,1,1
+Lake Constance,1,1
+Lake Helen,1,1
+Lake Hughes,1,1
+Lake Mary,1,1
+Lake St. Louis,1,1
+Lakehead,1,1
+Lamego,1,1
+Lancashire,1,1
+Land O Lakes,1,1
+Landau,1,1
+Lander,1,1
+Landsberg am Lech,1,1
+Langen,1,1
+Langford,1,1
+Lansdale,1,1
+Lansford,1,1
+Lanús,1,1
+Laramie,1,1
+Larchmont,1,1
+Larvik,1,1
+Latham,1,1
+Lauderdale-by-the-Sea,1,1
+Lauderhill,1,1
+Launceston,1,1
+Lautoka,1,1
+Lavale,1,1
+Lavalette,1,1
+Lawrence Township,1,1
+LCG,1,1
+Ldn,1,1
+Le Chalard,1,1
+Le Chesnay,1,1
+LE City - Germany,1,1
+Lead,1,1
+League City,1,1
+Leawood,1,1
+Lebbeke,1,1
+Lędziny,1,1
+Leerdam,1,1
+Lees Summit,1,1
+Leetonia,1,1
+Leeuwarden,1,1
+Legden,1,1
+Leiculeşti,1,1
+Leigh on Sea,1,1
+Leinfelden-Echterdingen,1,1
+Leinster,1,1
+Leksand,1,1
+Leland,1,1
+Lelystad,1,1
+Lenoir City,1,1
+Leoben,1,1
+León,1,1
+Leskovac,1,1
+Leszno,1,1
+Letchworth,1,1
+Letchworth Garden City,1,1
+Letterkenny,1,1
+Letterkenny (Ireland) ... but Im from Spain,1,1
+Levallois-Perret,1,1
+Leverkusen,1,1
+Lévis,1,1
+Lewis Center,1,1
+Lewisburg,1,1
+Liberty,1,1
+Liberty Hill,1,1
+Liberty Lake,1,1
+Lichtenberg,1,1
+Lichtenfels,1,1
+Liechtenstein,1,1
+Liege,1,1
+Liepaja,1,1
+Liestal,1,1
+Lilbourn,1,1
+Lillesand,1,1
+Lillestrom,1,1
+Lilongwe,1,1
+Lily,1,1
+Lincolnshire,1,1
+Lindau,1,1
+Lindenhurst,1,1
+Lindon,1,1
+Linlithgow,1,1
+Linton,1,1
+Lipetsk,1,1
+Lippstadt,1,1
+Lisburn,1,1
+L'Isle-Adam,1,1
+Lismore,1,1
+Little Elm,1,1
+Little Neck,1,1
+Livonia,1,1
+Lizton,1,1
+localhost.localdomain,1,1
+Lockhart,1,1
+Lockport,1,1
+Locust Grove,1,1
+Lombard,1,1
+Lombardy,1,1
+Lompoc,1,1
+London / Lyndhurst,1,1
+London | Johannesburg,1,1
+London and Devon,1,1
+London/Basingstoke,1,1
+London/Saigon/Singapore,1,1
+Londres,1,1
+Long Island,1,1
+Long Island City,1,1
+Longbranch,1,1
+Longridge,1,1
+Longs,1,1
+Lookout Mountain,1,1
+Lorain,1,1
+Lordran,1,1
+Lorton,1,1
+Los Alamos,1,1
+Los Altos Hills,1,1
+Loughborough,1,1
+Louvain-la-Neuve,1,1
+Loves Park,1,1
+Lower 48,1,1
+LTM,1,1
+Lubeque,1,1
+Ludhiana,1,1
+Lulea,1,1
+Lumaparksvägen,1,1
+Lüneburg,1,1
+Lunenburg,1,1
+Lusby,1,1
+Lussemburgo,1,1
+Luts'k,1,1
+Lviv Oblast,1,1
+Lymington,1,1
+Lynchburg,1,1
+Lyons,1,1
+Maarssen,1,1
+Macedon,1,1
+Macedonia (FYROM),1,1
+Machalí,1,1
+Macherio,1,1
+Macomb,1,1
+Macondo,1,1
+Macquarie Park,1,1
+Madalena - Ceara,1,1
+Madeira,1,1
+Madeira Beach,1,1
+Madrid-Spain,1,1
+Mafra,1,1
+Magna,1,1
+Mahara,1,1
+Mahora,1,1
+Mahwah,1,1
+Maidenbower,1,1
+MainFrame,1,1
+Maitland,1,1
+Makati,1,1
+Makow Podhalanski,1,1
+Malabe,1,1
+Malahide,1,1
+Maldives,1,1
+Malibu,1,1
+Malinovo,1,1
+Mallorca,1,1
+Malone,1,1
+Manahawkin,1,1
+Manalapan,1,1
+Manama,1,1
+manassas va,1,1
+Mandaluyong,1,1
+Mandeville,1,1
+Mangaung,1,1
+Manhattan Beach,1,1
+Manipal,1,1
+Manisa,1,1
+Manningtree,1,1
+Manno,1,1
+Manor,1,1
+Mantua,1,1
+Maple Ridge,1,1
+Maplewood,1,1
+Maracaibo,1,1
+Mariana,1,1
+Maricopa,1,1
+Mariestad,1,1
+Marikina,1,1
+Marin County,1,1
+Marion,1,1
+MarioWii:World1,1,1
+Mariposa,1,1
+Mariupol',1,1
+Market Harborough,1,1
+Market Weighton,1,1
+Maroochydore,1,1
+Marrakesh,1,1
+Martinsburg,1,1
+Maryborough,1,1
+Mascouche,1,1
+Mass,1,1
+Massachusetts United States,1,1
+Massachussetts,1,1
+Massapequa Park,1,1
+Masta,1,1
+Matawan,1,1
+Matrix,1,1
+Mauldin,1,1
+Maumee,1,1
+Mayaguez,1,1
+Mayence,1,1
+Maysville,1,1
+Mcdonald,1,1
+Mcmasterville,1,1
+MD,1,1
+MEA,1,1
+Mead,1,1
+Meadville,1,1
+Mechanicsville,1,1
+Meckenheim,1,1
+Medan,1,1
+Medina,1,1
+Mehrshahr,1,1
+Melaka,1,1
+Melbourne-,1,1
+Melbourne - Australia,1,1
+Melbourne Beach,1,1
+Mells,1,1
+Melnik,1,1
+Melville,1,1
+Menen,1,1
+Menomonee Falls,1,1
+Menzoberranzan,1,1
+Mequon,1,1
+Merced,1,1
+Merelbeke,1,1
+merge delete,1,1
+Merida,1,1
+Mérida,1,1
+Meridian,1,1
+Merseyside,1,1
+Mersin,1,1
+Messnerhaus,1,1
+Metro Boston,1,1
+Metro Manila,1,1
+Mettmann,1,1
+Metuchen,1,1
+Metz,1,1
+Meudon,1,1
+Mezőkövesd,1,1
+Microsoft,1,1
+middle of Germany,1,1
+Middle of the United Kingdom,1,1
+Middleburg,1,1
+Midrand,1,1
+Mids. UK,1,1
+Midwest City,1,1
+Midwestern United States,1,1
+Mifflinburg,1,1
+Mikkeli,1,1
+Milan/Italy,1,1
+Milanowek,1,1
+Milevsko,1,1
+Milford Haven,1,1
+Mililani,1,1
+Milky Way Galaxy,1,1
+Mill Creek,1,1
+Millersburg,1,1
+Millersville,1,1
+Millstatt am See,1,1
+Millville,1,1
+Milpitas,1,1
+Milroy,1,1
+Minhang,1,1
+Minnesota USA,1,1
+Minnetonka,1,1
+Mirabel,1,1
+Miri,1,1
+Misery,1,1
+Mishawaka,1,1
+Mishmarot,1,1
+Miskolc,1,1
+Missouri City,1,1
+Mittelerde,1,1
+Mittweida,1,1
+Mnichovo Hradiště,1,1
+Mo I Rana,1,1
+Moab,1,1
+Modiin,1,1
+Modiin Illit,1,1
+Modi'in Makabim-Re'ut,1,1
+Modi'in-Maccabim-Re'ut,1,1
+Moergestel,1,1
+Mogi-Guacu,1,1
+Mohali,1,1
+Molde,1,1
+Mollet del Vallès,1,1
+Moma,1,1
+Mombasa,1,1
+Mompós,1,1
+Monaghan,1,1
+Moncada,1,1
+Moncalieri,1,1
+Mönchengladbach,1,1
+Mondulkiri,1,1
+Mont Tout,1,1
+Montague,1,1
+Montara,1,1
+Monte Rio,1,1
+Monte Sereno,1,1
+Monte Urano,1,1
+Montgomery Village,1,1
+Monthey,1,1
+Montréal-Est,1,1
+Montreuil,1,1
+Moore,1,1
+Moorhead,1,1
+Morehead City,1,1
+Moreno Valley,1,1
+Morgan Hill,1,1
+Moriarty,1,1
+Morrison,1,1
+Morrow,1,1
+Mortsel,1,1
+Moseley,1,1
+Moshav Carmel,1,1
+Mosinee,1,1
+Moskva,1,1
+Moss,1,1
+Mostar,1,1
+Mostly Switzerland,1,1
+Mostly Wisconsin,1,1
+Mother Russia,1,1
+Mount Prospect,1,1
+Mountain Home,1,1
+Mountain Top,1,1
+Mountainside,1,1
+Moyock,1,1
+MPLS / SF,1,1
+Mt Hood,1,1
+Mt Joy,1,1
+Mt. Pleasant,1,1
+Mtamorak,1,1
+Muenchen,1,1
+Mühlhausen,1,1
+Mukilteo,1,1
+Munich (München),1,1
+Munich Area,1,1
+Munster,1,1
+Murmansk,1,1
+Murphy,1,1
+Murphysboro,1,1
+Murska Sobota,1,1
+Murtosa,1,1
+Muscat,1,1
+Muscatine,1,1
+MV,1,1
+MX,1,1
+N/A,1,1
+Nablus,1,1
+Nacogdoches,1,1
+Nadi,1,1
+Næstved,1,1
+Nagpur India,1,1
+Nagygoricza,1,1
+Nakhon Ratchasima,1,1
+Nałęczów,1,1
+Namibia,1,1
+Nanjemoy,1,1
+NanKunShan,1,1
+Nantes (44),1,1
+Napier,1,1
+Napoleonville,1,1
+Napoli,1,1
+Nashotah,1,1
+Nashvegas,1,1
+National University Of Singapore,1,1
+Navarre,1,1
+NC,1,1
+NCR,1,1
+near Utrecht,1,1
+Necochea,1,1
+Needham,1,1
+Neeroeteren,1,1
+Neijiang,1,1
+Nenagh,1,1
+NEPA,1,1
+Neryungri,1,1
+Netanya,1,1
+Netherland,1,1
+Netnaya,1,1
+Neuchatel,1,1
+Neuchâtel,1,1
+Neufahrn,1,1
+Neuhausen am Rheinfall,1,1
+Neuquen,1,1
+Neuss,1,1
+Neustadt an der Weinstraße,1,1
+Neustadt an der Weinstrasse,1,1
+Nevada City,1,1
+New Berlin,1,1
+New Caledonia,1,1
+New Englandia,1,1
+New Hartford,1,1
+New Hope,1,1
+New Hudson,1,1
+New Jersey 440,1,1
+New Lenox,1,1
+New Malden,1,1
+New Milford,1,1
+New Prague,1,1
+New Smyrna Beach,1,1
+New Stanton,1,1
+New Ulm,1,1
+New York ✈ St. Petersburg,1,1
+New York Metro Area,1,1
+New York metropolitan area,1,1
+New York-ish,1,1
+New Zealand / Singapore,1,1
+Newberg,1,1
+Newburgh,1,1
+Newbury Park,1,1
+Newburyport,1,1
+Newick,1,1
+Newman,1,1
+Newmarket,1,1
+Newquay,1,1
+Newton Mearns,1,1
+NH seacoast,1,1
+Niagara Falls Area,1,1
+Nicaragua,1,1
+Nieuwegein,1,1
+Nijmegen,1,1
+Niles,1,1
+Ninguan Parte,1,1
+Niš,1,1
+Niteroi,1,1
+Nitro,1,1
+Nittedal,1,1
+Nixa,1,1
+Nizhnij Novgorod,1,1
+NL,1,1
+Nocera Inferiore,1,1
+Nogales,1,1
+Nokia,1,1
+None,1,1
+Noord-Brabant,1,1
+Noord-Holland,1,1
+Noordwijk,1,1
+Norcross,1,1
+Nordjylland,1,1
+Normandy,1,1
+Norra Klagshamn,1,1
+North Adams,1,1
+North Attleborough,1,1
+North Avoca,1,1
+North Bethesda,1,1
+North Branford,1,1
+North Dakota,1,1
+North East,1,1
+North Holland,1,1
+North Hollywood,1,1
+North Kansas City,1,1
+North Lanarkshire,1,1
+North Las Vegas,1,1
+North Lewisburg,1,1
+North of Boston,1,1
+North of France,1,1
+North Pole,1,1
+North Port,1,1
+North Providence,1,1
+North Reading,1,1
+North Richland Hills,1,1
+North Tonawanda,1,1
+North UK,1,1
+North West,1,1
+North Yorkshire,1,1
+Northborough,1,1
+Northbrook,1,1
+Northeast PA,1,1
+Northern CA,1,1
+Northern Europe,1,1
+Northern Germany,1,1
+Northern NJ,1,1
+Northern Virginia,1,1
+Northfield,1,1
+Northford,1,1
+Northport,1,1
+Northumberland,1,1
+Northumberland County,1,1
+Northwestern Ontario,1,1
+"Not ""Frisco""",1,1
+not quite sure,1,1
+Nottingham Road,1,1
+nowhere now here,1,1
+Nsk,1,1
+Nuenen,1,1
+Nürnberg,1,1
+Nutley,1,1
+Nuuk,1,1
+NW,1,1
+NW USA,1,1
+NY and VT,1,1
+Nyack,1,1
+NYC Area,1,1
+Nyon,1,1
+Oak Lawn,1,1
+Oakmont,1,1
+Oakura,1,1
+Oberlin,1,1
+Oblivion,1,1
+OC,1,1
+Ocean City,1,1
+Ocean Isle Beach,1,1
+Odder,1,1
+Offenbach,1,1
+Oftering,1,1
+Ogden,1,1
+OH,1,1
+Oisterwijk,1,1
+Oita Prefecture,1,1
+Ojai,1,1
+Okinawa Prefecture,1,1
+Oksbol,1,1
+Old Bridge Twp,1,1
+Old Palo Alto,1,1
+Oldham,1,1
+Olive Branch,1,1
+Olmsted Falls,1,1
+Olney,1,1
+Olomouc,1,1
+Oman,1,1
+Omicron Persei 8,1,1
+Ommen,1,1
+Omnipresent,1,1
+On a train usually,1,1
+on the internets,1,1
+on the road!,1,1
+Onalaska,1,1
+One phone call away,1,1
+Ontario Canada,1,1
+Oporto,1,1
+Oradea,1,1
+Orance County,1,1
+Orange Park,1,1
+Orbiting the Sun (most likely on Earth),1,1
+Orebro,1,1
+Orefield,1,1
+Oregon City,1,1
+Orissa,1,1
+Orlando FL,1,1
+Orleans,1,1
+Orléans,1,1
+Örnsköldsvik,1,1
+Orpington,1,1
+Osaka-shi,1,1
+Osasco,1,1
+Oshkosh,1,1
+Oslo Area,1,1
+Osnabrück,1,1
+Osolin,1,1
+Osterburg,1,1
+Österreich,1,1
+Östersund,1,1
+Otsego,1,1
+Oufa,1,1
+Ouray,1,1
+Out West,1,1
+Outside Boston,1,1
+Overath,1,1
+Overly,1,1
+Overmind,1,1
+Övertorneå,1,1
+Overyssel,1,1
+Owasso,1,1
+Owensboro,1,1
+Oz,1,1
+Ozieri,1,1
+Pak Kret,1,1
+Pakistan / Saudi Arabia,1,1
+Palakkad,1,1
+Palatka,1,1
+Palenville,1,1
+Palisade,1,1
+Palm Beach Gardens,1,1
+Palm Coast,1,1
+Palma de Mallorca,1,1
+Palmdale,1,1
+Palmetto,1,1
+Palos Park,1,1
+Panaji,1,1
+Panamá,1,1
+Papua New Guinea,1,1
+Paramaribo,1,1
+Parana,1,1
+Pardubice,1,1
+Parigi,1,1
+Park City,1,1
+Park Ridge,1,1
+Paron,1,1
+Parry Sound,1,1
+Parsippany NJ,1,1
+Passaic,1,1
+Pathanamthitta,1,1
+Patna,1,1
+Pattaya City Chon Buri Thailand,1,1
+Pawling,1,1
+Paxton,1,1
+Payneham,1,1
+Payson,1,1
+Pazin,1,1
+Peabody,1,1
+Peace Dale,1,1
+Pearland,1,1
+Pecos,1,1
+Pécs,1,1
+Peer,1,1
+Pego,1,1
+Pegognaga,1,1
+PEI,1,1
+Peine,1,1
+Pelham,1,1
+Pélissanne,1,1
+Pella,1,1
+Pelotas,1,1
+Pembroke,1,1
+Penfield,1,1
+Peninsula,1,1
+Penngrove,1,1
+Penticton,1,1
+Perspicuity,1,1
+Perú,1,1
+Perugia,1,1
+Petah Tikva,1,1
+Petah Tiqwa,1,1
+Petaling Jaya,1,1
+Peterhead,1,1
+Petit Bourg,1,1
+Petrov nad Desnou,1,1
+Pezenas,1,1
+Pflugerville,1,1
+Phase space,1,1
+Phelan,1,1
+Philadelphia PA,1,1
+Phillips,1,1
+Philly,1,1
+Phoenix AZ,1,1
+Phuket,1,1
+Phuket Thailand,1,1
+Piacenza,1,1
+Piaseczno,1,1
+Piatra Neamt,1,1
+Pickering,1,1
+Pico Rivera,1,1
+Pierre,1,1
+Pikesville,1,1
+Piscataway,1,1
+Pitesti,1,1
+Placerville,1,1
+Planet Mars,1,1
+Plantation,1,1
+Platteville,1,1
+Playa Del Rey,1,1
+Pleasant Grove,1,1
+Ploiesti,1,1
+Plymouth Meeting,1,1
+Pocatello,1,1
+Point Richmond,1,1
+Poland/Germany,1,1
+Pollok,1,1
+Polska,1,1
+Pompano Beach,1,1
+Ponce,1,1
+Pondicherry,1,1
+Ponta Delgada,1,1
+Ponteilla,1,1
+Pontevedra,1,1
+Pont-Saint-Martin,1,1
+Porriño,1,1
+Port Alberni,1,1
+Port Elizabeth,1,1
+Port Fairy,1,1
+Port Harcourt,1,1
+Port Jefferson,1,1
+Port Neville,1,1
+Port Richey,1,1
+Port Washington,1,1
+Portarlington,1,1
+Porter Square,1,1
+Portland OR,1,1
+Portugal and Germany,1,1
+Port-Vila,1,1
+Potomac,1,1
+Pottstown,1,1
+Poughquag,1,1
+Powder Springs,1,1
+Powell River,1,1
+Poznań,1,1
+Praga,1,1
+Prague 4,1,1
+Prague-Prague 8,1,1
+Praha,1,1
+Prairieville,1,1
+Prato,1,1
+Prestonpans,1,1
+Pretzeltown,1,1
+Priceville,1,1
+Prien,1,1
+Primorska,1,1
+Prince George,1,1
+Prior Lake,1,1
+Probably crowd surfing on unicorns,1,1
+programming language archivist,1,1
+Prospect,1,1
+Prostějov,1,1
+Pruszkow,1,1
+Pryor,1,1
+Ptuj,1,1
+Puducherry,1,1
+Pueblo West,1,1
+Puerto Escondido,1,1
+Pula,1,1
+Pulaski,1,1
+Purcellville,1,1
+Purkersdorf,1,1
+Qingdao,1,1
+Quakertown,1,1
+Québec City,1,1
+Quebrada San Francisco,1,1
+Queen Mary University of London,1,1
+Queluz,1,1
+Quezon City,1,1
+Rabat,1,1
+Raciborz,1,1
+Rafaela,1,1
+Rainbow,1,1
+Rajankollur,1,1
+Ramallah - Palestine,1,1
+Rancagua,1,1
+Ranchi,1,1
+Rancho Cordova,1,1
+Rancho Cucamonga,1,1
+Rancho Mirage,1,1
+Rancho Palos Verdes,1,1
+Rancho Santa Margarita,1,1
+Rankweil,1,1
+Rapperswil-Jona,1,1
+Ras al Khaimah,1,1
+Ravensdale,1,1
+Rawalpindi,1,1
+RB,1,1
+Readfield,1,1
+Red River,1,1
+Redcar,1,1
+Redwood Shores,1,1
+Reftele,1,1
+Regensburg,1,1
+Reggio Emilia,1,1
+Rehovot,1,1
+Reinfeld,1,1
+Reliance,1,1
+Remote (global),1,1
+Republic,1,1
+Republic of Texas,1,1
+Reston (Fairfax County),1,1
+Retie,1,1
+Reus,1,1
+Reynosa,1,1
+Rheda-Wiedenbrück,1,1
+RI,1,1
+Ribe,1,1
+Richboro,1,1
+Richmond Hill,1,1
+Ridgecrest,1,1
+Ridgefield,1,1
+Rigel VII,1,1
+Rijnsburg,1,1
+Rijsbergen,1,1
+Ringoes,1,1
+Ringwood,1,1
+Rinxent,1,1
+Rio Claro - SP - Brasil,1,1
+Río Cuarto,1,1
+Rio de Janeiro - State of Rio de Janeiro,1,1
+Rio Grande - Rio Grande do Sul,1,1
+Ripon,1,1
+Ritterhude,1,1
+River Forest,1,1
+Rivne,1,1
+Riyadh Province,1,1
+Roanoke Rapids,1,1
+Roberts Creek,1,1
+Rochford,1,1
+Rock Island,1,1
+Rockland,1,1
+Rockville MD,1,1
+Rocky Hill,1,1
+Roden,1,1
+Roeselare,1,1
+Rogaland Fylke,1,1
+Rogers,1,1
+Roma,1,1
+Romans-sur-Isère,1,1
+Rose Bay,1,1
+Roseau,1,1
+Roseburg,1,1
+Roselle,1,1
+Roskilde,1,1
+Roßdorf,1,1
+Rostov-na-Donu,1,1
+Rostovskaya Oblast,1,1
+Rotterdam area,1,1
+Rousset,1,1
+Royalsofts - Pakistan,1,1
+Royersford,1,1
+Royston,1,1
+RS,1,1
+RTP,1,1
+Ruislip,1,1
+Rumney,1,1
+Russian,1,1
+Russian Federation,1,1
+Rutherford,1,1
+Rutland,1,1
+Rygge,1,1
+Rzeszów,1,1
+Saarbrucken,1,1
+Saarburg,1,1
+Sackville,1,1
+Sacramento-ish,1,1
+Saffron Walden,1,1
+Saguenay,1,1
+Sahuarita,1,1
+Saidu,1,1
+Saint Augustine,1,1
+Saint Charles,1,1
+Saint Cloud,1,1
+Saint John,1,1
+Saint Pierre,1,1
+Saint-Affrique,1,1
+Saint-Denis-de-Pile,1,1
+Saint-Étienne,1,1
+Saint-Gilles-Les Bains,1,1
+Saint-Jean-sur-Richelieu,1,1
+Saint-Martin-le-Vinoux,1,1
+Sala,1,1
+Salaberry-de-Valleyfield,1,1
+Saline,1,1
+Salisburgo,1,1
+Salmon Arm,1,1
+Salo,1,1
+Saltaire,1,1
+Saltash,1,1
+Salyersville,1,1
+Samobor,1,1
+San Andreas,1,1
+San Boi de Llobregat,1,1
+San Dimas,1,1
+San Fancisco,1,1
+San Fernando,1,1
+San fr,1,1
+San Francisco / New York City,1,1
+San Francisco CA,1,1
+San Francisco Peninsula,1,1
+San Francsico,1,1
+San Gabriel,1,1
+San Isidro,1,1
+San Michele All'adige,1,1
+San Miguel,1,1
+San Nicolas de Los Arroyos,1,1
+San Salvador,1,1
+Sand Lake,1,1
+Sandersville,1,1
+Sandton,1,1
+Sanford,1,1
+Sanger,1,1
+Santa Ana,1,1
+Santa Catarina,1,1
+Santa Clarita,1,1
+Santa Cruz de Tenerife,1,1
+Santa Cruz Mountains,1,1
+Santa Rita do Sapucaí,1,1
+Santander,1,1
+Santos Lugares,1,1
+São Bernardo do Campo - SP,1,1
+São Brás de Alportel,1,1
+Sao Jose dos Campos,1,1
+Sao Jose dos Pinhais,1,1
+São Leopoldo,1,1
+São Paulo - Brasil,1,1
+São Petersburgo,1,1
+Sapporo-shi,1,1
+Sapulpa,1,1
+Sarajevski Kanton,1,1
+Saransk,1,1
+Saratoga,1,1
+Sardinia,1,1
+Sarnia,1,1
+Sarnthein,1,1
+Sarpsborg,1,1
+Sarrebruck,1,1
+Sartell,1,1
+Saskatchewan,1,1
+Satanta,1,1
+Satellite Beach,1,1
+Saturn,1,1
+Saugus,1,1
+Sault Ste. Marie,1,1
+Sauquoit,1,1
+Sausalito,1,1
+Saxony,1,1
+Scandinavia,1,1
+Scappoose,1,1
+Schaffhausen,1,1
+Schilde,1,1
+Schiplaken,1,1
+Schöppingen,1,1
+Schwerin,1,1
+Schwerte,1,1
+Scottsboro,1,1
+Seabrook,1,1
+Seamill,1,1
+Seatlol,1,1
+Seattle greater area,1,1
+Seattle-ish,1,1
+Sechelt,1,1
+Secor,1,1
+Sector 001,1,1
+Secunderabad,1,1
+Sedalia,1,1
+Seilh,1,1
+Selangor Malaysia,1,1
+Selby,1,1
+Seligenstadt,1,1
+Sellersville,1,1
+Semarang,1,1
+Seminole,1,1
+Sendai-shi,1,1
+Sequim,1,1
+Serbia and Montenegro,1,1
+Setauket,1,1
+Settle,1,1
+Sevastopol',1,1
+Sevilla,1,1
+Seychelles,1,1
+Seymour,1,1
+SF Bay Area - California,1,1
+'s-Gravenpolder,1,1
+Shaftesbury,1,1
+Shandong,1,1
+Sharon,1,1
+Shaunavon,1,1
+Shavertown,1,1
+Shawinigan,1,1
+Shawnee,1,1
+Sheboygan Falls,1,1
+Sheffield. United Kingdom,1,1
+Shefford,1,1
+Shelburne,1,1
+Shelby Twp,1,1
+Shepperton,1,1
+Sheridan,1,1
+Shermerville,1,1
+Sherwood,1,1
+Sherwood Park,1,1
+Shingle Springs,1,1
+Shipley,1,1
+Shippenville,1,1
+Shiraz,1,1
+Shoreham,1,1
+Shropshire,1,1
+Shymkent,1,1
+Siberia,1,1
+Sicily,1,1
+Sidney,1,1
+Siedlce,1,1
+Sierra Foothills,1,1
+Sierra Vista,1,1
+Signal Mountain,1,1
+Silesia,1,1
+Silverton,1,1
+Simsbury,1,1
+Sinsheim,1,1
+Sittard,1,1
+Sivakasi,1,1
+Skanderborg,1,1
+Skanör,1,1
+Skellefteå,1,1
+Ski,1,1
+Skippack,1,1
+Skokie,1,1
+Slane,1,1
+Sliema,1,1
+Slovenska Bistrica,1,1
+SMA- Mexico,1,1
+Smithers,1,1
+Smithtown,1,1
+Snellville,1,1
+Snodland,1,1
+Snoqualmie,1,1
+Snowflake,1,1
+Soest,1,1
+Sofía,1,1
+Softwhere,1,1
+Sogndal,1,1
+Sol,1,1
+Sol 3,1,1
+Solana Beach,1,1
+Sollentuna,1,1
+Solms,1,1
+Someplace,1,1
+Son La,1,1
+Sondrio,1,1
+Sopot,1,1
+Souf London,1,1
+South Affrica,1,1
+South African living in the Netherlands,1,1
+South Afrika,1,1
+South America,1,1
+South Bay,1,1
+South Boston,1,1
+South Central Wisconsin,1,1
+South East Asia,1,1
+South GA,1,1
+South Holland,1,1
+South Lake Tahoe,1,1
+South Milwaukee,1,1
+south pacific,1,1
+South Park,1,1
+South polar cap,1,1
+South Portland,1,1
+South Salem,1,1
+South San Francisco,1,1
+South Shore,1,1
+South Wales,1,1
+Southampton and London,1,1
+South-East of France,1,1
+Southeastern,1,1
+Southeastern Pennsylvania,1,1
+Southend-on-Sea,1,1
+Southern England,1,1
+Southern Pines,1,1
+Southington,1,1
+SouthWest,1,1
+southwest elbownia,1,1
+Southwest Minnesota,1,1
+Southwold,1,1
+Space,1,1
+spaced out,1,1
+Spanaway,1,1
+Spanish Fort,1,1
+Sparks,1,1
+Spb,1,1
+Spearfish,1,1
+Spires,1,1
+Spokane Valley,1,1
+Spring Grove,1,1
+Springdale,1,1
+Sprockhövel,1,1
+Śrem,1,1
+Šrilanka,1,1
+Srinagar,1,1
+St Andrews,1,1
+St Austell,1,1
+St George,1,1
+St Helens,1,1
+St Joseph,1,1
+St Kilda West,1,1
+St Lucie,1,1
+St Paul MN,1,1
+St. Catharines,1,1
+St. G,1,1
+St. Just,1,1
+St. Louis MO USA,1,1
+St. Lucia,1,1
+St. Neots,1,1
+St. Poelten,1,1
+St.-Alphonse-de-Granby,1,1
+St.-Leu-d'Esserent,1,1
+St.Louis,1,1
+StackOverflowton,1,1
+Staffordshire,1,1
+Staki,1,1
+Stara Zagora,1,1
+Starkville,1,1
+Stavropol,1,1
+Ste.-Julie,1,1
+Steamboat Springs,1,1
+Steenokkerzeel,1,1
+Stenungsund,1,1
+Stephens City,1,1
+Sterling Heights,1,1
+Stevens Point,1,1
+Stevensville,1,1
+Stgo,1,1
+Stilwell,1,1
+St-Jérôme,1,1
+Stone Mountain,1,1
+Stoneham,1,1
+Stord,1,1
+Stornoway,1,1
+Storrs,1,1
+Storvreta,1,1
+Stoughton,1,1
+Stowe,1,1
+Stowmarket,1,1
+Strängnäs,1,1
+Stratford-upon-Avon,1,1
+Stratham,1,1
+Strathclyde,1,1
+Strovolos,1,1
+Struer,1,1
+Struga,1,1
+Subang Jaya,1,1
+Subotica,1,1
+Sudan,1,1
+Suffolk County,1,1
+Sugar Hill,1,1
+Sully,1,1
+Summerfield,1,1
+Summit,1,1
+Sunderland,1,1
+Sundown,1,1
+Sunnyside,1,1
+Sunrise,1,1
+Super Mario Land,1,1
+Surabaya,1,1
+Surry,1,1
+Susquehanna,1,1
+Sussex/Surrey,1,1
+Susteren,1,1
+Suwanee,1,1
+Svendborg,1,1
+Sverige,1,1
+SW Scotland,1,1
+SW UK,1,1
+Swamp,1,1
+Swampscott,1,1
+Swarthmore,1,1
+Swarzędz,1,1
+Swaziland,1,1
+Sweden / Switzerland,1,1
+Swizerland,1,1
+Sydneattle,1,1
+Sydney Australia,1,1
+Sykesville,1,1
+Sykkylven,1,1
+Sylmar,1,1
+Sztokholm,1,1
+t,1,1
+Taastrup,1,1
+Tabayesco,1,1
+Tabernash,1,1
+Taboão da Serra,1,1
+Tacoma WA,1,1
+Tagaytay,1,1
+Talsen,1,1
+TamilNadu,1,1
+Tampa Bay,1,1
+Tamworth,1,1
+Taos,1,1
+Tappahannock,1,1
+Târgu-Mureș,1,1
+Tarifa,1,1
+Tarnopol',1,1
+Tarrytown,1,1
+Taylor Mill,1,1
+Tea,1,1
+teh boosh,1,1
+Tehran - Iran,1,1
+Tehran Province,1,1
+Teignmouth,1,1
+Telemark Fylke,1,1
+Teltow,1,1
+Templeton,1,1
+Tenerife,1,1
+Teresina - State of Piauí,1,1
+Ternat,1,1
+Ternopil',1,1
+Terre Haute,1,1
+Terrebonne,1,1
+Thame,1,1
+Thanesar,1,1
+Thatcham,1,1
+The Colony,1,1
+The Commonwealth of Massachusetts,1,1
+The computer screen,1,1
+The Earth,1,1
+The Grid,1,1
+The Inverse Of Where I'm Not,1,1
+The land down under,1,1
+The Lifesphere,1,1
+The North Pole,1,1
+The Other New York,1,1
+The Road,1,1
+The United States of America,1,1
+The US of A,1,1
+the World,1,1
+The World Wide Web,1,1
+Theresa,1,1
+Thibodaux,1,1
+Third rock from the sun,1,1
+Thornton,1,1
+Thrissur,1,1
+Thunder Bay,1,1
+Thurso,1,1
+Tianjin,1,1
+Tidewater,1,1
+Tierra Amarilla,1,1
+Time,1,1
+Timișoara,1,1
+Timnath,1,1
+Timonium,1,1
+Tinton Falls,1,1
+Tipton,1,1
+Tîrgovişte,1,1
+Titusville,1,1
+Tivat,1,1
+TLV,1,1
+Toccoa,1,1
+Todmorden,1,1
+Tofol,1,1
+Togliatty,1,1
+Tokushima Prefecture,1,1
+Tokyo/Japan,1,1
+Tol'yatti,1,1
+Tomaszów,1,1
+Tomball,1,1
+Toms River,1,1
+Tonsberg,1,1
+Tønsberg,1,1
+Torhout,1,1
+Torreon,1,1
+Torrington,1,1
+Toruń,1,1
+Toscana,1,1
+Tours,1,1
+Towanda,1,1
+Towcester,1,1
+Townville,1,1
+Towson,1,1
+Trabzon,1,1
+Tracy,1,1
+Train,1,1
+Trainer,1,1
+Trångsviken,1,1
+Traveling around the world,1,1
+Traveling the U.S.,1,1
+Tree,1,1
+Trent,1,1
+Trenton,1,1
+Treves,1,1
+Trier,1,1
+Trimbach,1,1
+Triniad and Tobago,1,1
+Tripoli,1,1
+Trois-Rivières,1,1
+Trona,1,1
+Trumbull,1,1
+Tsukuba-shi,1,1
+Tualatin,1,1
+Tubinga,1,1
+Tucuman,1,1
+Tujunga,1,1
+Tuktoyaktuk,1,1
+Tulare,1,1
+Tulare County,1,1
+Tullamore,1,1
+Tumbi Umbi,1,1
+Tunkhannock Township,1,1
+Tunnelton,1,1
+Tupelo,1,1
+Turkey - UK,1,1
+Turnhout,1,1
+Tuscaloosa,1,1
+Tuscany,1,1
+Twin Cities area,1,1
+Tyler,1,1
+Typeoville,1,1
+Tyresö,1,1
+Tysons Corner,1,1
+Úbeda,1,1
+Ubehebe Crater,1,1
+Uddevalla,1,1
+Udupi,1,1
+UK | China,1,1
+UK | Poland,1,1
+Ukraine. Dnipropetrovsk,1,1
+Ulan Bator,1,1
+Ulverston,1,1
+Ulyanovsk,1,1
+Ul'Yanovsk,1,1
+undisclosed,1,1
+Uniontown,1,1
+Universal,1,1
+Universally Remote,1,1
+University City,1,1
+University of Pennsylvania,1,1
+University Place,1,1
+Unterschleissheim,1,1
+Upham,1,1
+Upper Austria,1,1
+Upper Coomera,1,1
+USA / Germany,1,1
+USA / Netherlands,1,1
+USA / TR,1,1
+Usaquén,1,1
+Usk,1,1
+Üsküdar,1,1
+USSR,1,1
+UT,1,1
+UTC+6,1,1
+UTC-8,1,1
+UTM Zone 10,1,1
+Uttoxeter,1,1
+Uzhhorod,1,1
+VA and CT,1,1
+Vác,1,1
+Vacaville,1,1
+Vadodara,1,1
+Vagabond,1,1
+Valašské Meziříčí,1,1
+Valcea,1,1
+valencia & london,1,1
+Valenciennes,1,1
+Vallejo,1,1
+Valrico,1,1
+Valyermo,1,1
+Vancity,1,1
+Vancouver Island,1,1
+Varberg,1,1
+Varennes,1,1
+Varginha,1,1
+Varies,1,1
+Varna,1,1
+Varsenare,1,1
+Vasai,1,1
+Västervåla,1,1
+Västra Frölunda,1,1
+Vattholma,1,1
+Vaudreuil-Dorion,1,1
+Vaughn,1,1
+Vay,1,1
+Veenendaal,1,1
+Vejbystrand,1,1
+Venlo,1,1
+Veracruz,1,1
+Verceia,1,1
+Vercelli,1,1
+Verdun,1,1
+Verl,1,1
+Vernon,1,1
+Vero Beach,1,1
+Vestal,1,1
+Vesteroy,1,1
+Vestfold Fylke,1,1
+Vijayawada,1,1
+Vila Nova de Gaia,1,1
+Vilanova i la Geltrú,1,1
+Villa Carlos Paz,1,1
+Villach,1,1
+Villanova,1,1
+Villanueva de la Vera,1,1
+Villemoisson-sur-Orge,1,1
+Villeneuve-d'Ascq,1,1
+Villenova,1,1
+Vincennes,1,1
+Vinnica,1,1
+Virar,1,1
+Virginia Water,1,1
+Visby,1,1
+Viseu,1,1
+Višnjan,1,1
+Visoko,1,1
+Vitória,1,1
+Vitoria-Gasteiz,1,1
+Vittorio Veneto,1,1
+Vlaardingen,1,1
+Vladivostok,1,1
+Völklingen,1,1
+Vologda,1,1
+Volta Redonda,1,1
+Volta Redonda - Rio de Janeiro - Brazil,1,1
+Voorburg,1,1
+Voorhees,1,1
+Voorhees Township,1,1
+Voronezh,1,1
+Votkinsk,1,1
+Vrhnika,1,1
+VT,1,1
+Vught,1,1
+Waco,1,1
+Waconia,1,1
+Wagga Wagga,1,1
+Walcott,1,1
+Walla Walla,1,1
+Wallasey,1,1
+Waller,1,1
+Walluf,1,1
+Walnut,1,1
+Waltham Cross,1,1
+Walton-on-thames,1,1
+Waltrop,1,1
+Wandsworth,1,1
+War Room,1,1
+Warendorf,1,1
+Warley,1,1
+Warrenpoint,1,1
+Warrington,1,1
+Washington D.C. Metro Area,1,1
+Washington DC metro area (US),1,1
+Washington DC metro area + Sarasota,1,1
+Washington Twp.,1,1
+Waterdown,1,1
+Watervliet,1,1
+Wausau,1,1
+Waverly,1,1
+Waxahachie,1,1
+Waxhaw,1,1
+Wayland,1,1
+Wayne,1,1
+Wayzata,1,1
+We don't pussycat-pussycat here!,1,1
+Weehawken,1,1
+Weesp,1,1
+Weikersheim,1,1
+Weipa,1,1
+Wellingborough,1,1
+Werder (Havel),1,1
+Wesel,1,1
+Wesley Chapel,1,1
+West Allis,1,1
+West Chicago,1,1
+West coast of Finland,1,1
+West Grove,1,1
+West Hills,1,1
+West Jordan,1,1
+West Kelowna,1,1
+West Kilbride,1,1
+West Lebanon,1,1
+West Lothian,1,1
+West Malling,1,1
+West Mids,1,1
+West Richland,1,1
+West Salem,1,1
+West Springfield,1,1
+West Texas,1,1
+Westbury,1,1
+Westchester,1,1
+Westcliff-on-Sea,1,1
+Western Hemisphere,1,1
+Western Massachusetts,1,1
+Westlake Village,1,1
+Westland,1,1
+Westmead,1,1
+Westwood,1,1
+Westwoud,1,1
+Wetteren,1,1
+Wetumpka,1,1
+Whatever's at the top of the stack when you ret,1,1
+wherever,1,1
+Whitchurch,1,1
+White Bluff,1,1
+White Settlement,1,1
+Whitianga,1,1
+Whiting,1,1
+Wichita Falls,1,1
+Widnes,1,1
+Wiehl,1,1
+Wijchen,1,1
+Wil,1,1
+Wilder,1,1
+Wildwood,1,1
+Wilhermsdorf,1,1
+Wilkes-Barre,1,1
+Willemstad,1,1
+Williamsburg,1,1
+Willich,1,1
+Willimantic,1,1
+Wilmslow,1,1
+Wilton,1,1
+Wind Gap,1,1
+Windham,1,1
+Windhoek,1,1
+Winlock,1,1
+Winter Haven,1,1
+Winter Park,1,1
+Wisbech,1,1
+Wisconain,1,1
+WNY,1,1
+Wodonga,1,1
+Wognum,1,1
+Wolverine Lake,1,1
+Wonderland,1,1
+Woodburn,1,1
+Woods Cross,1,1
+Woodside,1,1
+Worcester MA,1,1
+Worcestershire,1,1
+world citizen,1,1
+World Traveler,1,1
+Worms,1,1
+Worthing,1,1
+Worthington,1,1
+Wotton under Edge,1,1
+Wroclove,1,1
+Wroclove / Poland,1,1
+Würselen,1,1
+www,1,1
+Wyndmoor,1,1
+Wyomissing,1,1
+x,1,1
+Xalapa,1,1
+Xi'an,1,1
+Yad Binyamin,1,1
+Yamatokoriyama-shi,1,1
+Yambol,1,1
+Yardley,1,1
+Yavne,1,1
+Yehud Monosun,1,1
+Yes,1,1
+Yokohama,1,1
+Yonkers,1,1
+Yoqneam,1,1
+Yorba Linda,1,1
+Yorkton,1,1
+Yosemite National Park,1,1
+Yoshkar-Ola,1,1
+You,1,1
+Youngstown,1,1
+Your favorite IDE,1,1
+Your imagination,1,1
+Ypres,1,1
+Ypsilanti,1,1
+Ystad,1,1
+Yverdon-les-Bains,1,1
+Yvetot,1,1
+Zabki,1,1
+Zambia,1,1
+Zaporizhia Oblast,1,1
+Žednik,1,1
+Zephyr Cove,1,1
+Zevenaar,1,1
+Zhytomyr,1,1
+Zionsville,1,1
+Ziqim,1,1
+Zlatibor,1,1
+zn,1,1
+Zomergem,1,1
+Zottegegem,1,1
+Zrenjanin,1,1
+Zuidlaren,1,1
+Zulte,1,1
+Zurrieq,1,1
+Zuzwil,1,1
+Zwevegem,1,1
