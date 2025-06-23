@@ -1,5 +1,5 @@
 export function initTable() {
-  const csvFilePath = "./pag1/data.csv";
+  const csvFilePath = "/pag1/data.csv";
   const tableBody = document.getElementById("tableBody");
   const pageInfo = document.getElementById("pageInfo");
   const prevBtn = document.getElementById("prevBtn");
